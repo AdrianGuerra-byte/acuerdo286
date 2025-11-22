@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Puedo presentar más de un examen?",
+    "respuesta": "Sí, puedes presentar varios exámenes del Acuerdo 286. Sin embargo, cada examen debe ser registrado y pagado por separado, y deberás cumplir con los requisitos específicos de cada uno. Te recomendamos espaciar tus evaluaciones para una mejor preparación."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué pasa si no acredito el examen?",
+    "respuesta": "Si no acreditas el examen en tu primer intento, puedes volver a presentarlo después de 6 meses. Es importante revisar las áreas de oportunidad en tu resultado y prepararte mejor para el siguiente intento. El CUH ofrece material de apoyo para tu preparación."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿El CUH entrega el certificado o título oficial?",
+    "respuesta": "El CUH es un centro evaluador autorizado. Una vez que acreditas el examen, el certificado o título oficial es emitido por la Secretaría de Educación Pública (SEP) a través de los procesos establecidos por el Acuerdo 286. El CUH gestiona y da seguimiento a tu trámite."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cómo recupero mi ficha de registro?",
+    "respuesta": "Tu ficha de registro se envía automáticamente a tu correo electrónico una vez completado el proceso de inscripción. Si no la recibiste, puedes solicitarla enviando un correo a examenes@cuh.edu.mx con tu número de folio y nombre completo."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿El CUH ofrece cursos de preparación?",
+    "respuesta": "El CUH proporciona guías de estudio y material de apoyo de forma gratuita para todos los exámenes. Adicionalmente, ofrecemos talleres de orientación previos a cada fecha de examen. Consulta nuestro calendario de actividades o contacta al área de servicios escolares."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuánto tiempo tarda en llegar mi resultado?",
+    "respuesta": "Los resultados oficiales se publican aproximadamente 3-4 semanas después de la fecha del examen, dependiendo del tipo de evaluación. Recibirás una notificación por correo electrónico cuando tus resultados estén disponibles."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué documentos debo llevar el día del examen?",
+    "respuesta": "Es indispensable llevar tu ficha de registro impresa, identificación oficial vigente con fotografía (INE, pasaporte o cédula profesional), y lápiz del número 2 o 2.5. No se permite el uso de dispositivos electrónicos durante el examen."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Los exámenes tienen validez oficial?",
+    "respuesta": "Sí, todos los exámenes aplicados bajo el Acuerdo 286 tienen validez oficial ante la SEP. Los certificados y títulos obtenidos son reconocidos a nivel nacional y tienen la misma validez que los otorgados por instituciones educativas tradicionales."
+  }
+]

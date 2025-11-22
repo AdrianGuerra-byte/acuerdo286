@@ -1,0 +1,133 @@
+"use client"
+
+import Link from "next/link"
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
+import { useState } from "react"
+
+export function Navigation() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  return (
+    <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
+          {/* Logo */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo-cuh.avif"
+              alt="Centro Universitario Hidalguense"
+              width={180}
+              height={60}
+              className="h-12 lg:h-14 w-auto"
+              priority
+            />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-8">
+            <Link
+              href="/#acuerdo-286"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Acuerdo 286
+            </Link>
+            <Link href="/#oferta" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Oferta de Exámenes
+            </Link>
+            <Link
+              href="/#calendario"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Calendario
+            </Link>
+            <Link href="/#proceso" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Proceso de Inscripción
+            </Link>
+            <Link href="/#faq" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Preguntas Frecuentes
+            </Link>
+            <Link
+              href="/#contacto"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Contacto
+            </Link>
+          </div>
+
+          {/* CTA Button Desktop */}
+          <div className="hidden lg:block">
+            <Button asChild size="lg" className="font-medium">
+              <Link href="/inscripcion">Inscríbete Ahora</Link>
+            </Button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="lg:hidden py-4 border-t border-border">
+            <div className="flex flex-col gap-4">
+              <Link
+                href="/#acuerdo-286"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Acuerdo 286
+              </Link>
+              <Link
+                href="/#oferta"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Oferta de Exámenes
+              </Link>
+              <Link
+                href="/#calendario"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Calendario
+              </Link>
+              <Link
+                href="/#proceso"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Proceso de Inscripción
+              </Link>
+              <Link
+                href="/#faq"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Preguntas Frecuentes
+              </Link>
+              <Link
+                href="/#contacto"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Contacto
+              </Link>
+              <Button asChild size="lg" className="font-medium w-full mt-2">
+                <Link href="/inscripcion" onClick={() => setIsMenuOpen(false)}>
+                  Inscríbete Ahora
+                </Link>
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  )
+}

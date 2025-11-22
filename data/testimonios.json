@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "María González Hernández",
+    "programa": "Acredita-Bach",
+    "año": 2024,
+    "testimonio": "Gracias al programa Acredita-Bach pude certificar mi bachillerato después de 15 años. El proceso fue claro, el personal muy profesional y ahora puedo continuar con mi licenciatura. Totalmente recomendado.",
+    "imagen": "/placeholder.svg?height=400&width=400"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos Ramírez López",
+    "programa": "Licenciatura en Administración",
+    "año": 2023,
+    "testimonio": "La experiencia laboral que adquirí durante 10 años en mi empresa fue reconocida oficialmente gracias al examen del Acuerdo 286. Ahora tengo mi título profesional y mejores oportunidades laborales.",
+    "imagen": "/placeholder.svg?height=400&width=400"
+  },
+  {
+    "id": 3,
+    "nombre": "Ana Patricia Sánchez",
+    "programa": "Licenciatura en Contaduría",
+    "año": 2024,
+    "testimonio": "El CUH me brindó todo el apoyo necesario para preparar mi examen. Las guías fueron muy útiles y el día del examen todo estuvo perfectamente organizado. Obtuve mi certificación al primer intento.",
+    "imagen": "/placeholder.svg?height=400&width=400"
+  },
+  {
+    "id": 4,
+    "nombre": "Roberto Martínez Cruz",
+    "programa": "Ingeniería en Sistemas",
+    "año": 2023,
+    "testimonio": "Como programador autodidacta, el Acuerdo 286 fue mi oportunidad para validar mis conocimientos. El examen fue justo, bien estructurado y finalmente obtuve mi título de ingeniero.",
+    "imagen": "/placeholder.svg?height=400&width=400"
+  },
+  {
+    "id": 5,
+    "nombre": "Laura Jiménez Flores",
+    "programa": "EGEL Licenciatura",
+    "año": 2024,
+    "testimonio": "Presenté el EGEL en el CUH y fue una excelente experiencia. Las instalaciones son adecuadas, el ambiente es profesional y los resultados llegaron en el tiempo prometido. Muy satisfecha con el servicio.",
+    "imagen": "/placeholder.svg?height=400&width=400"
+  }
+]
