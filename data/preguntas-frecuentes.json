@@ -28,15 +28,5 @@
     "id": 6,
     "pregunta": "¿Cuánto tiempo tarda en llegar mi resultado?",
     "respuesta": "Los resultados oficiales se publican aproximadamente 3-4 semanas después de la fecha del examen, dependiendo del tipo de evaluación. Recibirás una notificación por correo electrónico cuando tus resultados estén disponibles."
-  },
-  {
-    "id": 7,
-    "pregunta": "¿Qué documentos debo llevar el día del examen?",
-    "respuesta": "Es indispensable llevar tu ficha de registro impresa, identificación oficial vigente con fotografía (INE, pasaporte o cédula profesional), y lápiz del número 2 o 2.5. No se permite el uso de dispositivos electrónicos durante el examen."
-  },
-  {
-    "id": 8,
-    "pregunta": "¿Los exámenes tienen validez oficial?",
-    "respuesta": "Sí, todos los exámenes aplicados bajo el Acuerdo 286 tienen validez oficial ante la SEP. Los certificados y títulos obtenidos son reconocidos a nivel nacional y tienen la misma validez que los otorgados por instituciones educativas tradicionales."
   }
 ]
