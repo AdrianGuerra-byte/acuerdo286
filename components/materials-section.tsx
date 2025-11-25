@@ -5,31 +5,31 @@ import { Download, FileText, BookOpen, Folder } from "lucide-react"
 const materials = [
   {
     id: 1,
-    title: "Guía Oficial Acredita-Bach",
-    description: "Documento completo con temario, ejemplos y recomendaciones para el examen de bachillerato.",
+    title: "Guía de Proceso de Titulación",
+    description: "Documento que detalla paso a paso el proceso para obtener tu título universitario por experiencia.",
     icon: FileText,
-    size: "2.4 MB",
+    size: "1.5 MB",
   },
   {
     id: 2,
-    title: "Cuadernillos Institucionales CUH",
-    description: "Material de apoyo desarrollado por el CUH con ejercicios prácticos y casos de estudio.",
+    title: "Cuadernillos de Preparación",
+    description: "Material de apoyo con ejercicios y casos prácticos para reforzar tus conocimientos.",
     icon: BookOpen,
-    size: "5.1 MB",
+    size: "4.2 MB",
   },
   {
     id: 3,
     title: "Temarios por Licenciatura",
-    description: "Contenidos específicos para cada programa de licenciatura disponible.",
+    description: "Contenidos temáticos específicos para cada una de las licenciaturas ofertadas.",
     icon: Folder,
-    size: "1.8 MB",
+    size: "2.1 MB",
   },
   {
     id: 4,
-    title: "Material Complementario",
-    description: "Recursos adicionales, bibliografía recomendada y enlaces de interés.",
+    title: "Recursos Adicionales",
+    description: "Bibliografía recomendada, enlaces de interés y herramientas de estudio complementarias.",
     icon: Download,
-    size: "900 KB",
+    size: "1.2 MB",
   },
 ]
 
@@ -37,7 +37,7 @@ export function MaterialsSection() {
   return (
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="space-y-12 max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
