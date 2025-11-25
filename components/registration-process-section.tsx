@@ -1,58 +1,58 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { UserCircle, FileUp, CreditCard, CheckCircle, FileText } from "lucide-react"
+import { UserCircle, FileUp, CreditCard, CheckCircle, Book, Award } from "lucide-react"
 
 const steps = [
   {
     number: 1,
-    title: "Registro",
-    description: "Completa el formulario con tus datos personales y selecciona el examen que deseas presentar.",
+    title: "Solicitud de Admisión",
+    description: "Completa el formulario con tus datos y selecciona la licenciatura que deseas acreditar.",
     icon: UserCircle,
     color: "primary",
   },
   {
     number: 2,
     title: "Carga de Documentos",
-    description: "Sube los documentos requeridos en formato PDF o imagen (identificación, certificados, etc.).",
+    description: "Sube tu CV, certificado de bachillerato, CURP e identificación oficial.",
     icon: FileUp,
     color: "secondary",
   },
   {
     number: 3,
-    title: "Pago",
-    description: "Realiza el pago correspondiente mediante transferencia bancaria o en ventanilla.",
-    icon: CreditCard,
+    title: "Portafolio de Evidencias",
+    description: "Integra y presenta tu portafolio demostrando tu experiencia y competencias.",
+    icon: Book,
     color: "accent",
   },
   {
     number: 4,
-    title: "Confirmación",
-    description: "Recibe tu folio de registro y ficha de examen en tu correo electrónico.",
-    icon: CheckCircle,
+    title: "Evaluación y Pago",
+    description: "Tu portafolio será evaluado. Una vez aprobado, realiza el pago correspondiente.",
+    icon: CreditCard,
     color: "primary",
   },
   {
     number: 5,
-    title: "Presentación",
-    description: "Presenta tu examen en la fecha indicada con tu ficha y documentos originales.",
-    icon: FileText,
+    title: "Titulación",
+    description: "Al aprobar la evaluación, se iniciará el trámite para la emisión de tu Título Profesional.",
+    icon: Award,
     color: "secondary",
   },
 ]
 
 export function RegistrationProcessSection() {
   return (
-    <section id="proceso" className="py-16 lg:py-24 bg-background">
+    <section id="proceso" className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-12 max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Proceso de Inscripción
+              Proceso de Titulación
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl mx-auto">
-              Sigue estos sencillos pasos para completar tu inscripción al examen
+              Sigue estos pasos para obtener tu Título Universitario por experiencia laboral.
             </p>
           </div>
 
@@ -101,7 +101,7 @@ export function RegistrationProcessSection() {
           {/* CTA */}
           <div className="text-center pt-8">
             <Button asChild size="lg" className="text-base font-medium">
-              <Link href="/inscripcion">Iniciar Inscripción Ahora</Link>
+              <Link href="/inscripcion">Inicia tu Proceso de Titulación</Link>
             </Button>
           </div>
         </div>

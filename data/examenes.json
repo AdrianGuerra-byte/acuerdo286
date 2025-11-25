@@ -1,0 +1,122 @@
+[
+  {
+    "id": "administracion",
+    "nombre": "Licenciatura en Administración",
+    "categoria": "Nivel Superior",
+    "descripcion": "Obtén tu título de Lic. en Administración validando tu experiencia profesional.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Administración, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "contaduria",
+    "nombre": "Licenciatura en Contaduría",
+    "categoria": "Nivel Superior",
+    "descripcion": "Valida tus conocimientos contables y fiscales para obtener tu título profesional.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Contaduría, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "sistemas",
+    "nombre": "Ingeniería en Sistemas Computacionales",
+    "categoria": "Nivel Superior",
+    "descripcion": "Obtén tu título de Ingeniero en Sistemas validando tu experiencia en desarrollo, redes y BD.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 15,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Ingeniería en Sistemas, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "derecho",
+    "nombre": "Licenciatura en Derecho",
+    "categoria": "Nivel Superior",
+    "descripcion": "Valida tu experiencia en el campo jurídico y obtén tu título de Licenciado en Derecho.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Derecho, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "pedagogia",
+    "nombre": "Licenciatura en Pedagogía",
+    "categoria": "Nivel Superior",
+    "descripcion": "Obtén tu título de Lic. en Pedagogía validando tu experiencia en el ámbito educativo.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Pedagogía, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "mercadotecnia",
+    "nombre": "Licenciatura en Mercadotecnia",
+    "categoria": "Nivel Superior",
+    "descripcion": "Valida tu experiencia en estrategias comerciales y obtén tu título profesional.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Mercadotecnia, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  }
+]

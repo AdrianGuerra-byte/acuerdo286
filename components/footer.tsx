@@ -18,8 +18,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed text-pretty">
-              Centro aplicador autorizado por la SEP para exámenes del Acuerdo 286. Certificando conocimientos desde
-              2009.
+              Institución autorizada por la SEP para la titulación por experiencia laboral mediante el Acuerdo 286.
             </p>
             <div className="flex items-center gap-3">
               <a
