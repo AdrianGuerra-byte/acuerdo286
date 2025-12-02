@@ -2,17 +2,44 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { UserCircle, FileUp, CreditCard, CheckCircle, Book, Award } from "lucide-react"
-import procesoData from "@/data/proceso-registro.json"
 
-// Mapeo de iconos desde strings a componentes
-const iconMap: Record<string, React.ElementType> = {
-  UserCircle,
-  FileUp,
-  Book,
-  CreditCard,
-  Award,
-  CheckCircle,
-}
+const steps = [
+  {
+    number: 1,
+    title: "Solicitud de Admisión",
+    description: "Completa el formulario con tus datos y selecciona la licenciatura que deseas acreditar.",
+    icon: UserCircle,
+    color: "primary",
+  },
+  {
+    number: 2,
+    title: "Carga de Documentos",
+    description: "Sube tu CV, certificado de bachillerato, CURP e identificación oficial.",
+    icon: FileUp,
+    color: "secondary",
+  },
+  {
+    number: 3,
+    title: "Portafolio de Evidencias",
+    description: "Integra y presenta tu portafolio demostrando tu experiencia y competencias.",
+    icon: Book,
+    color: "accent",
+  },
+  {
+    number: 4,
+    title: "Evaluación y Pago",
+    description: "Tu portafolio será evaluado. Una vez aprobado, realiza el pago correspondiente.",
+    icon: CreditCard,
+    color: "primary",
+  },
+  {
+    number: 5,
+    title: "Titulación",
+    description: "Al aprobar la evaluación, se iniciará el trámite para la emisión de tu Título Profesional.",
+    icon: Award,
+    color: "secondary",
+  },
+]
 
 export function RegistrationProcessSection() {
   return (
