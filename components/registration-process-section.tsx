@@ -65,8 +65,8 @@ export function RegistrationProcessSection() {
             />
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-4">
-              {steps.map((step) => {
-                const Icon = step.icon
+              {procesoData.map((step) => {
+                const Icon = iconMap[step.icon]
                 return (
                   <div key={step.number} className="relative">
                     <Card className="h-full hover:shadow-lg transition-shadow border-2 hover:border-primary/20">

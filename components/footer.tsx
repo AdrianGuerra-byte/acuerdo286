@@ -95,38 +95,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Servicios */}
-          <div className="space-y-4">
-            <h3 className="font-serif font-bold text-lg">Servicios</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Oferta Educativa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Servicios Escolares
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Biblioteca
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Becas y Financiamiento
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Bolsa de Trabajo
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Contacto */}
           <div className="space-y-4">
             <h3 className="font-serif font-bold text-lg">Contacto</h3>

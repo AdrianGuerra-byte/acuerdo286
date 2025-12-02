@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Download, FileText, BookOpen, Folder } from "lucide-react"
+import materialesData from "@/data/materiales.json"
 
 const materials = [
   {
@@ -50,8 +51,8 @@ export function MaterialsSection() {
 
           {/* Materials Grid */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {materials.map((material) => {
-              const Icon = material.icon
+            {materialesData.map((material) => {
+              const Icon = iconMap[material.icon]
               return (
                 <Card key={material.id} className="hover:shadow-lg transition-shadow border-2 hover:border-primary/20">
                   <CardContent className="p-6 space-y-4">
