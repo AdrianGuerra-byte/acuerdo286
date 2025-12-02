@@ -1,58 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { UserCircle, FileUp, CreditCard, CheckCircle, FileText } from "lucide-react"
+import { UserCircle, FileUp, CreditCard, CheckCircle, Book, Award } from "lucide-react"
+import procesoData from "@/data/proceso-registro.json"
 
-const steps = [
-  {
-    number: 1,
-    title: "Registro",
-    description: "Completa el formulario con tus datos personales y selecciona el examen que deseas presentar.",
-    icon: UserCircle,
-    color: "primary",
-  },
-  {
-    number: 2,
-    title: "Carga de Documentos",
-    description: "Sube los documentos requeridos en formato PDF o imagen (identificación, certificados, etc.).",
-    icon: FileUp,
-    color: "secondary",
-  },
-  {
-    number: 3,
-    title: "Pago",
-    description: "Realiza el pago correspondiente mediante transferencia bancaria o en ventanilla.",
-    icon: CreditCard,
-    color: "accent",
-  },
-  {
-    number: 4,
-    title: "Confirmación",
-    description: "Recibe tu folio de registro y ficha de examen en tu correo electrónico.",
-    icon: CheckCircle,
-    color: "primary",
-  },
-  {
-    number: 5,
-    title: "Presentación",
-    description: "Presenta tu examen en la fecha indicada con tu ficha y documentos originales.",
-    icon: FileText,
-    color: "secondary",
-  },
-]
+// Mapeo de iconos desde strings a componentes
+const iconMap: Record<string, React.ElementType> = {
+  UserCircle,
+  FileUp,
+  Book,
+  CreditCard,
+  Award,
+  CheckCircle,
+}
 
 export function RegistrationProcessSection() {
   return (
-    <section id="proceso" className="py-16 lg:py-24 bg-background">
+    <section id="proceso" className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-12 max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Proceso de Inscripción
+              Proceso de Titulación
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl mx-auto">
-              Sigue estos sencillos pasos para completar tu inscripción al examen
+              Sigue estos pasos para obtener tu Título Universitario por experiencia laboral.
             </p>
           </div>
 
@@ -65,8 +38,8 @@ export function RegistrationProcessSection() {
             />
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-4">
-              {steps.map((step) => {
-                const Icon = step.icon
+              {procesoData.map((step) => {
+                const Icon = iconMap[step.icon]
                 return (
                   <div key={step.number} className="relative">
                     <Card className="h-full hover:shadow-lg transition-shadow border-2 hover:border-primary/20">
@@ -101,7 +74,7 @@ export function RegistrationProcessSection() {
           {/* CTA */}
           <div className="text-center pt-8">
             <Button asChild size="lg" className="text-base font-medium">
-              <Link href="/inscripcion">Iniciar Inscripción Ahora</Link>
+              <Link href="/inscripcion">Inicia tu Proceso de Titulación</Link>
             </Button>
           </div>
         </div>

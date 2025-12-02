@@ -18,8 +18,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed text-pretty">
-              Centro aplicador autorizado por la SEP para exámenes del Acuerdo 286. Certificando conocimientos desde
-              2009.
+              Institución autorizada por la SEP para la titulación mediante el Acuerdo 286.
             </p>
             <div className="flex items-center gap-3">
               <a
@@ -92,38 +91,6 @@ export function Footer() {
                 >
                   Preguntas Frecuentes
                 </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Servicios */}
-          <div className="space-y-4">
-            <h3 className="font-serif font-bold text-lg">Servicios</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Oferta Educativa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Servicios Escolares
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Biblioteca
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Becas y Financiamiento
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Bolsa de Trabajo
-                </a>
               </li>
             </ul>
           </div>

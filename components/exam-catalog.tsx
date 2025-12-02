@@ -9,10 +9,10 @@ export function ExamCatalog() {
           {/* Header */}
           <div className="text-center space-y-4 max-w-3xl mx-auto">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Oferta de Exámenes
+              Licenciaturas por Experiencia Laboral
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-              Consulta todos los exámenes disponibles y elige el que se adapte a tus necesidades
+              Elige la licenciatura que deseas acreditar y obtén tu título universitario.
             </p>
           </div>
 

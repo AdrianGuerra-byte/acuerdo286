@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Guía de Proceso de Titulación",
+    "description": "Documento que detalla paso a paso el proceso para obtener tu título universitario por experiencia.",
+    "icon": "FileText",
+    "size": "1.5 MB"
+  },
+  {
+    "id": 2,
+    "title": "Cuadernillos de Preparación",
+    "description": "Material de apoyo con ejercicios y casos prácticos para reforzar tus conocimientos.",
+    "icon": "BookOpen",
+    "size": "4.2 MB"
+  },
+  {
+    "id": 3,
+    "title": "Temarios por Licenciatura",
+    "description": "Contenidos temáticos específicos para cada una de las licenciaturas ofertadas.",
+    "icon": "Folder",
+    "size": "2.1 MB"
+  },
+  {
+    "id": 4,
+    "title": "Recursos Adicionales",
+    "description": "Bibliografía recomendada, enlaces de interés y herramientas de estudio complementarias.",
+    "icon": "Download",
+    "size": "1.2 MB"
+  }
+]

@@ -19,14 +19,15 @@ export function HeroSection() {
 
             <div className="space-y-4">
               <h1 className="font-serif font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-balance">
-                Exámenes de Evaluación para la Acreditación de Conocimientos
+                Titúlate por Experiencia Laboral con Acuerdo 286
               </h1>
-              <p className="text-xl lg:text-2xl text-primary-foreground/90 font-light text-pretty">Acuerdo 286</p>
+              <p className="text-xl lg:text-2xl text-primary-foreground/90 font-light text-pretty">
+                Obtén tu título universitario validando tus conocimientos y experiencia profesional.
+              </p>
             </div>
 
             <p className="text-lg text-primary-foreground/80 leading-relaxed max-w-2xl text-pretty">
-              Centro Universitario Hidalguense - Centro aplicador autorizado que te permite validar tus conocimientos y
-              obtener certificación oficial sin cursar programas completos.
+              El Centro Universitario Hidalguense te ofrece la oportunidad de obtener tu título de Licenciatura a través del Acuerdo 286 de la SEP, reconociendo la experiencia que ya tienes.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

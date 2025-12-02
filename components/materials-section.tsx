@@ -1,37 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Download, FileText, BookOpen, Folder } from "lucide-react"
+import materialesData from "@/data/materiales.json"
 
-const materials = [
-  {
-    id: 1,
-    title: "Guía Oficial Acredita-Bach",
-    description: "Documento completo con temario, ejemplos y recomendaciones para el examen de bachillerato.",
-    icon: FileText,
-    size: "2.4 MB",
-  },
-  {
-    id: 2,
-    title: "Cuadernillos Institucionales CUH",
-    description: "Material de apoyo desarrollado por el CUH con ejercicios prácticos y casos de estudio.",
-    icon: BookOpen,
-    size: "5.1 MB",
-  },
-  {
-    id: 3,
-    title: "Temarios por Licenciatura",
-    description: "Contenidos específicos para cada programa de licenciatura disponible.",
-    icon: Folder,
-    size: "1.8 MB",
-  },
-  {
-    id: 4,
-    title: "Material Complementario",
-    description: "Recursos adicionales, bibliografía recomendada y enlaces de interés.",
-    icon: Download,
-    size: "900 KB",
-  },
-]
+// Mapeo de iconos desde strings a componentes
+const iconMap: Record<string, React.ElementType> = {
+  FileText,
+  BookOpen,
+  Folder,
+  Download,
+}
 
 export function MaterialsSection() {
   return (
@@ -50,8 +28,8 @@ export function MaterialsSection() {
 
           {/* Materials Grid */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {materials.map((material) => {
-              const Icon = material.icon
+            {materialesData.map((material) => {
+              const Icon = iconMap[material.icon]
               return (
                 <Card key={material.id} className="hover:shadow-lg transition-shadow border-2 hover:border-primary/20">
                   <CardContent className="p-6 space-y-4">

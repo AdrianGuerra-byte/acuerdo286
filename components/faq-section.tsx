@@ -9,10 +9,10 @@ export function FAQSection() {
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Preguntas Frecuentes
+              Dudas sobre la Titulación
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-              Encuentra respuestas a las dudas más comunes sobre los exámenes del Acuerdo 286
+              Resolvemos tus dudas sobre el proceso de titulación por experiencia laboral.
             </p>
           </div>
 
