@@ -3,19 +3,41 @@ import { Button } from "@/components/ui/button"
 import { Download, FileText, BookOpen, Folder } from "lucide-react"
 import materialesData from "@/data/materiales.json"
 
-// Mapeo de iconos desde strings a componentes
-const iconMap: Record<string, React.ElementType> = {
-  FileText,
-  BookOpen,
-  Folder,
-  Download,
-}
+const materials = [
+  {
+    id: 1,
+    title: "Guía de Proceso de Titulación",
+    description: "Documento que detalla paso a paso el proceso para obtener tu título universitario por experiencia.",
+    icon: FileText,
+    size: "1.5 MB",
+  },
+  {
+    id: 2,
+    title: "Cuadernillos de Preparación",
+    description: "Material de apoyo con ejercicios y casos prácticos para reforzar tus conocimientos.",
+    icon: BookOpen,
+    size: "4.2 MB",
+  },
+  {
+    id: 3,
+    title: "Temarios por Licenciatura",
+    description: "Contenidos temáticos específicos para cada una de las licenciaturas ofertadas.",
+    icon: Folder,
+    size: "2.1 MB",
+  },
+  {
+    id: 4,
+    title: "Recursos Adicionales",
+    description: "Bibliografía recomendada, enlaces de interés y herramientas de estudio complementarias.",
+    icon: Download,
+    size: "1.2 MB",
+  },
+]
 
 export function MaterialsSection() {
   return (
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">

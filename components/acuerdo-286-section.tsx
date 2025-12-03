@@ -5,7 +5,7 @@ export function Acuerdo286Section() {
   return (
     <section id="acuerdo-286" className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto space-y-12">
+        <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
@@ -18,7 +18,7 @@ export function Acuerdo286Section() {
 
           {/* Definition Card */}
           <Card className="border-2 border-primary/20 shadow-lg">
-            <CardContent className="p-8 lg:p-12">
+            <CardContent>
               <p className="text-lg leading-relaxed text-foreground text-pretty">
                 <strong className="text-primary font-semibold">Acuerdo 286:</strong> Son los lineamientos emitidos por la Secretaría de Educación Pública (SEP) que te permiten obtener un título universitario al demostrar que cuentas con los conocimientos y habilidades necesarios, adquiridos a través de tu experiencia laboral o de forma autodidacta, sin necesidad de cursar un programa universitario tradicional.
               </p>
@@ -28,7 +28,7 @@ export function Acuerdo286Section() {
           {/* Subsections */}
           <div className="grid md:grid-cols-1 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-8 space-y-4">
+              <CardContent className="space-y-4">
                 <div className="w-14 h-14 bg-secondary/10 rounded-xl flex items-center justify-center">
                   <Award className="w-7 h-7 text-secondary" />
                 </div>
@@ -57,7 +57,7 @@ export function Acuerdo286Section() {
 
           {/* Who Can Apply */}
           <Card className="bg-primary/5 border-primary/20">
-            <CardContent className="p-8 lg:p-10">
+            <CardContent>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
                   <FileCheck className="w-6 h-6 text-primary-foreground" />
