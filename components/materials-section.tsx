@@ -15,7 +15,8 @@ export function MaterialsSection() {
   return (
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="space-y-12 max-w-5xl mx-auto">
+
+        <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
@@ -30,6 +31,10 @@ export function MaterialsSection() {
           <div className="grid sm:grid-cols-2 gap-6">
             {materialesData.map((material) => {
               const Icon = iconMap[material.icon]
+              if (!Icon) {
+                console.error(`Icon "${material.icon}" not found in iconMap`)
+                return null
+              }
               return (
                 <Card key={material.id} className="hover:shadow-lg transition-shadow border-2 hover:border-primary/20">
                   <CardContent className="p-6 space-y-4">
