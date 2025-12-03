@@ -5,7 +5,7 @@ export function RequirementsSection() {
   return (
     <section id="requisitos" className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="space-y-12 max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
@@ -58,7 +58,7 @@ export function RequirementsSection() {
           {/* Additional Cards */}
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="bg-muted/50">
-              <CardContent className="p-6 space-y-3">
+              <CardContent className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Users className="w-5 h-5 text-primary" />
@@ -74,7 +74,7 @@ export function RequirementsSection() {
             </Card>
 
             <Card className="bg-muted/50">
-              <CardContent className="p-6 space-y-3">
+              <CardContent className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Baby className="w-5 h-5 text-secondary" />
@@ -91,7 +91,7 @@ export function RequirementsSection() {
           </div>
 
           <Card className="border-2 border-primary/20 bg-primary/5">
-            <CardContent className="p-6 flex items-start gap-3">
+            <CardContent className="flex items-start gap-3">
               <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
               <div className="space-y-2">
                 <h4 className="font-semibold text-foreground text-lg">Políticas del Proceso</h4>
