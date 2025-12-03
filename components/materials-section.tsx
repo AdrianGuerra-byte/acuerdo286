@@ -53,6 +53,10 @@ export function MaterialsSection() {
           <div className="grid sm:grid-cols-2 gap-6">
             {materialesData.map((material) => {
               const Icon = iconMap[material.icon]
+              if (!Icon) {
+                console.error(`Icon "${material.icon}" not found in iconMap`)
+                return null
+              }
               return (
                 <Card key={material.id} className="hover:shadow-lg transition-shadow border-2 hover:border-primary/20">
                   <CardContent className="p-6 space-y-4">
