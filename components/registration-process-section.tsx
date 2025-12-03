@@ -63,7 +63,7 @@ export function RegistrationProcessSection() {
               className="hidden lg:block absolute top-16 left-0 right-0 h-0.5 bg-border"
               style={{ left: "10%", right: "10%" }}
             />
-
+                        
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-4">
               {procesoData.map((step) => {
                 const Icon = iconMap[step.icon]
