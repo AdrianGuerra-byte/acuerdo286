@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Download, FileText, BookOpen, Folder } from "lucide-react"
 import materialesData from "@/data/materiales.json"
 
-// Mapeo de iconos desde strings a componentes
+// Mapeo de iconos desde strings a componentegits
 const iconMap: Record<string, React.ElementType> = {
   FileText,
   BookOpen,
