@@ -11,16 +11,23 @@ export function Acuerdo286Section() {
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
               ¿Qué es el Acuerdo 286?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto text-pretty">
-              Conoce cómo puedes obtener tu Título Universitario gracias a tu experiencia profesional.
-            </p>
+    
           </div>
 
           {/* Definition Card */}
           <Card className="border-2 border-primary/20 shadow-lg">
             <CardContent>
               <p className="text-lg leading-relaxed text-foreground text-pretty">
-                <strong className="text-primary font-semibold">Acuerdo 286:</strong> Son los lineamientos emitidos por la Secretaría de Educación Pública (SEP) que te permiten obtener un título universitario al demostrar que cuentas con los conocimientos y habilidades necesarios, adquiridos a través de tu experiencia laboral o de forma autodidacta, sin necesidad de cursar un programa universitario tradicional.
+                <strong className="text-primary font-semibold"></strong> El Acuerdo 286 es el marco normativo que permite el reconocimiento oficial de conocimientos y estudios adquiridos fuera del sistema escolar formal. <br />Establece los procedimientos para:
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>Revalidar o homologar estudios.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>Acreditar aprendizajes obtenidos mediante experiencia laboral, formación autodidacta o capacitación para el trabajo.</span>
+                  </li>
+                <strong className="text-primary font-semibold"></strong> Su objetivo es validar los saberes para facilitar la continuidad educativa y la certificación formal.
               </p>
             </CardContent>
           </Card>
