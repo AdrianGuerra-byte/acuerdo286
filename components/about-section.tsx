@@ -56,12 +56,8 @@ export function AboutSection() {
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Quiénes Somos
+              ¿Quiénes Somos?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-3xl mx-auto">
-              Centro Universitario Hidalguense, tu aliado en el camino hacia la
-              titulación profesional
-            </p>
           </div>
 
           {/* Main Content */}
@@ -69,32 +65,20 @@ export function AboutSection() {
             {/* Text Content */}
             <div className="space-y-6">
               <div className="space-y-4">
-                <h3 className="font-serif font-bold text-2xl text-foreground">
-                  Institución Líder en Evaluación Profesional
-                </h3>
+              
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p className="text-pretty">
-                    El{" "}
+                    En el{" "}
                     <strong className="text-foreground">
-                      Centro Universitario Hidalguense (CUH)
+                      Centro Universitario Hidalguense
                     </strong>{" "}
-                    es una institución educativa con más de 15 años de
-                    experiencia, reconocida y autorizada por la Secretaría de
-                    Educación Pública (SEP) como centro aplicador de exámenes
-                    bajo el Acuerdo 286.
-                  </p>
-                  <p className="text-pretty">
-                    Nos especializamos en ofrecer a profesionistas la
-                    oportunidad de obtener su título universitario mediante la
-                    validación de conocimientos adquiridos a través de la
-                    experiencia laboral y el aprendizaje autodidacta.
-                  </p>
-                  <p className="text-pretty">
-                    Nuestro compromiso es brindar un proceso transparente,
-                    confiable y accesible que reconozca el valor de tu
-                    trayectoria profesional, facilitando tu crecimiento
-                    académico y laboral.
-                  </p>
+                    estamos comprometidos, como una Institución de 
+                    Educación Superior (IES), a impulsar la formación
+                     integral de nuestros estudiantes a través de un modelo 
+                     educativo centrado en su desarrollo humano y profesional, 
+                     proporcionando un entorno de alto nivel académico y excelencia 
+                     que les permita alcanzar su máximo potencial.
+                  </p>  
                 </div>
               </div>
 
@@ -102,7 +86,7 @@ export function AboutSection() {
               <div className="grid grid-cols-3 gap-4 pt-4">
                 <div className="text-center p-4 bg-muted/50 rounded-xl">
                   <div className="text-3xl font-bold font-serif text-primary">
-                    500+
+                    5000+
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
                     Profesionistas Titulados
@@ -110,7 +94,7 @@ export function AboutSection() {
                 </div>
                 <div className="text-center p-4 bg-muted/50 rounded-xl">
                   <div className="text-3xl font-bold font-serif text-primary">
-                    15+
+                    23+
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
                     Años de Experiencia
@@ -152,13 +136,14 @@ export function AboutSection() {
                   <Target className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-serif font-bold text-xl text-foreground">
-                  Nuestra Misión
+                  Misión
                 </h3>
                 <p className="text-muted-foreground leading-relaxed text-pretty">
-                  Facilitar la titulación de profesionistas a través de la
-                  evaluación de competencias y conocimientos adquiridos por
-                  experiencia laboral, contribuyendo al desarrollo profesional y
-                  social de nuestra comunidad.
+                  Formar personas libres y humanistas con pensamiento crítico mediante 
+                  una sólida preparación científica, técnica y cultural, promoviendo en
+                   ellos aptitudes alineadas al respeto, la solidaridad, honestidad y
+                    resiliencia lo que les permitirá alta competitividad profesional para 
+                    una mejor convivencia y eficaz transformación de la sociedad.
                 </p>
               </CardContent>
             </Card>
@@ -169,7 +154,7 @@ export function AboutSection() {
                   <Lightbulb className="w-6 h-6 text-secondary" />
                 </div>
                 <h3 className="font-serif font-bold text-xl text-foreground">
-                  Nuestra Visión
+                  Visión
                 </h3>
                 <p className="text-muted-foreground leading-relaxed text-pretty">
                   Ser el centro de evaluación líder en el estado de Hidalgo,
