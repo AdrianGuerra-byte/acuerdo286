@@ -48,20 +48,7 @@ export function HeroSection() {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
-
-            {/* Floating Cards */}
-            <div className="absolute bottom-6 left-6 right-6 bg-card/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                  <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <div className="font-semibold text-card-foreground">Próxima fecha de examen</div>
-                  <div className="text-sm text-muted-foreground">5 de abril de 2025</div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
