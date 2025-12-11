@@ -14,25 +14,20 @@ export function HeroSection() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 bg-primary-foreground/10 px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
               <Award className="w-4 h-4" />
-              <span>Centro aplicador autorizado por la SEP</span>
+              <span>Institución Evaluadora por Acuerdo 286 Autorizada por DGAIR</span>
             </div>
 
             <div className="space-y-4">
               <h1 className="font-serif font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-balance">
-                Titúlate por Experiencia Laboral con Acuerdo 286
+                EXAMEN ÚNICO DE ACREDITACIÓN DE LICENCIATURA CUH (EXUNAL -CUH)
               </h1>
               <p className="text-xl lg:text-2xl text-primary-foreground/90 font-light text-pretty">
-                Obtén tu título universitario validando tus conocimientos y experiencia profesional.
+                Evalúa tus conocimientos en el Centro Universitario Hidalguense (CUH) y obtén tu título con Validez Oficial ante la Secretaría de Educación Pública (SEP).
               </p>
-            </div>
-
-            <p className="text-lg text-primary-foreground/80 leading-relaxed max-w-2xl text-pretty">
-              El Centro Universitario Hidalguense te ofrece la oportunidad de obtener tu título de Licenciatura a través del Acuerdo 286 de la SEP, reconociendo la experiencia que ya tienes.
-            </p>
-
+              </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" variant="secondary" className="text-base font-medium">
-                <Link href="/#oferta">Consulta la Oferta de Exámenes</Link>
+                <Link href="/#oferta">Consulta Nuestros Perfiles Autorizados</Link>
               </Button>
               <Button
                 asChild
@@ -42,23 +37,7 @@ export function HeroSection() {
               >
                 <Link href="/inscripcion">Inscríbete Aquí</Link>
               </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-primary-foreground/20">
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">500+</div>
-                <div className="text-sm text-primary-foreground/70">Certificaciones</div>
               </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">15+</div>
-                <div className="text-sm text-primary-foreground/70">Años de Experiencia</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">98%</div>
-                <div className="text-sm text-primary-foreground/70">Satisfacción</div>
-              </div>
-            </div>
           </div>
 
           {/* Image */}
@@ -69,20 +48,7 @@ export function HeroSection() {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
-
-            {/* Floating Cards */}
-            <div className="absolute bottom-6 left-6 right-6 bg-card/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                  <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <div className="font-semibold text-card-foreground">Próxima fecha de examen</div>
-                  <div className="text-sm text-muted-foreground">5 de abril de 2025</div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     </section>

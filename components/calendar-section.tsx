@@ -40,7 +40,7 @@ export function CalendarSection() {
                         <CalendarDays className="w-5 h-5 text-primary" />
                       </div>
                       <div className="space-y-1">
-                        <div className="text-sm font-medium text-muted-foreground">Pe riodo de Registro</div>
+                        <div className="text-sm font-medium text-muted-foreground">Periodo de Registro</div>
                         <div className="font-semibold text-foreground">{exam.fechaRegistro}</div>
                       </div>
                     </div>
