@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
-import { useState } from "react"
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export function Navigation() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
@@ -28,12 +28,21 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <Link
+              href="/#quienes-somos"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Quiénes Somos
+            </Link>
+            <Link
               href="/#acuerdo-286"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               Acuerdo 286
             </Link>
-            <Link href="/#oferta" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <Link
+              href="/#oferta"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Oferta de Exámenes
             </Link>
             <Link
@@ -42,10 +51,16 @@ export function Navigation() {
             >
               Calendario
             </Link>
-            <Link href="/#proceso" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <Link
+              href="/#proceso"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Proceso de Inscripción
             </Link>
-            <Link href="/#faq" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <Link
+              href="/#faq"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Preguntas Frecuentes
             </Link>
             <Link
@@ -77,6 +92,13 @@ export function Navigation() {
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
+              <Link
+                href="/#quienes-somos"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Quiénes Somos
+              </Link>
               <Link
                 href="/#acuerdo-286"
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
@@ -129,5 +151,5 @@ export function Navigation() {
         )}
       </div>
     </nav>
-  )
+  );
 }
