@@ -39,10 +39,9 @@ export function Acuerdo286Section() {
                 <div className="w-14 h-14 bg-secondary/10 rounded-xl flex items-center justify-center">
                   <Award className="w-7 h-7 text-secondary" />
                 </div>
-                <h3 className="font-serif font-bold text-xl text-foreground">Titulación por Experiencia Laboral</h3>
+                <h3 className="font-serif font-bold text-xl text-foreground">Acredita tu Licenciatura</h3>
                 <p className="text-muted-foreground leading-relaxed text-pretty">
-                  Valida tu experiencia profesional y conocimientos para obtener tu título de licenciatura. Reconoce el
-                  aprendizaje autodidacta y la práctica laboral.
+                  Valida tu experiencia profesional y conocimientos para obtener tu título de licenciatura. Reconoce el aprendizaje autodidacta y la práctica laboral.
                 </p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
@@ -73,8 +72,7 @@ export function Acuerdo286Section() {
                   <h3 className="font-serif font-bold text-xl text-foreground">¿Quiénes pueden presentarlo?</h3>
                   <div className="space-y-2 text-muted-foreground leading-relaxed">
                     <p className="text-pretty">
-                      Profesionistas con experiencia laboral comprobable de al menos 3 años en su área, que adquirieron conocimientos de forma
-                      autodidacta o práctica y buscan un título oficial.
+                      Personas que adquirieron conocimientos de forma autodidacta o por experiencia laboral en el área y buscan acreditar algún perfil autorizado de educación superior.
                     </p>
                   </div>
                 </div>
