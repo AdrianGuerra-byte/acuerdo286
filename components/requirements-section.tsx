@@ -24,14 +24,12 @@ export function RequirementsSection() {
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
                   {[
-                    "Acta de nacimiento original y copia",
-                    "CURP actualizada",
-                    "Identificación oficial vigente con fotografía (INE, pasaporte)",
-                    "Certificado de bachillerato original y copia",
-                    "Curriculum vitae detallado que demuestre al menos 3 años de experiencia",
-                    "Portafolio de evidencias profesionales",
-                    "Comprobante de pago de derechos",
-                    "6 fotografías tamaño título, ovaladas, blanco y negro, en papel mate",
+                    "Acta de Nacimiento (Actualizada)",
+                    "Clave Única de Registro de Población (CURP- Certificada: Verificada con el Registro Civil)",
+                    "Identificación Oficial Vigente (INE)",
+                    "Certificado de Nivel Medio Superior (Validado)",
+                    "Currículum Vítae",
+                    "Constancia de estudios con al menos 50% de créditos concluidos (Lic. en Derecho y Lic. en Contaduría)",
                   ].map((doc, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <FileCheck className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
