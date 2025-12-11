@@ -1,24 +1,33 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Clock, DollarSign, Users, Calendar } from "lucide-react"
+"use client";
+
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Clock, DollarSign, Users, Calendar } from "lucide-react";
 
 interface ExamCardProps {
   exam: {
-    id: string
-    nombre: string
-    categoria: string
-    descripcion: string
-    modalidad: string
-    duracion: string
-    costo: string
-    cupo: number
-    fechaExamen: string
-  }
+    id: string;
+    nombre: string;
+    categoria: string;
+    descripcion: string;
+    modalidad: string;
+    duracion: string;
+    costo: string;
+    cupo: number;
+    fechaExamen: string;
+  };
+  onViewDetails: () => void;
 }
 
-export function ExamCard({ exam }: ExamCardProps) {
+export function ExamCard({ exam, onViewDetails }: ExamCardProps) {
   return (
     <Card className="h-full flex flex-col hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 hover:border-primary/20">
       <CardHeader className="space-y-3">
@@ -30,11 +39,15 @@ export function ExamCard({ exam }: ExamCardProps) {
             {exam.modalidad}
           </Badge>
         </div>
-        <CardTitle className="font-serif text-xl leading-tight text-balance">{exam.nombre}</CardTitle>
+        <CardTitle className="font-serif text-xl leading-tight text-balance">
+          {exam.nombre}
+        </CardTitle>
       </CardHeader>
 
       <CardContent className="flex-1 space-y-4">
-        <p className="text-muted-foreground leading-relaxed text-pretty line-clamp-3">{exam.descripcion}</p>
+        <p className="text-muted-foreground leading-relaxed text-pretty line-clamp-3">
+          {exam.descripcion}
+        </p>
 
         <div className="grid grid-cols-2 gap-3 pt-2">
           <div className="flex items-center gap-2 text-sm">
@@ -51,19 +64,25 @@ export function ExamCard({ exam }: ExamCardProps) {
           </div>
           <div className="flex items-center gap-2 text-sm">
             <Calendar className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-            <span className="text-muted-foreground text-xs">{exam.fechaExamen}</span>
+            <span className="text-muted-foreground text-xs">
+              {exam.fechaExamen}
+            </span>
           </div>
         </div>
       </CardContent>
 
       <CardFooter className="flex gap-2">
-        <Button asChild variant="outline" className="flex-1 bg-transparent">
-          <Link href={`/examenes/${exam.id}`}>Ver Detalles</Link>
+        <Button
+          onClick={onViewDetails}
+          variant="outline"
+          className="flex-1 bg-transparent"
+        >
+          Ver Detalles
         </Button>
         <Button asChild className="flex-1">
           <Link href="/inscripcion">Inscribirme</Link>
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
