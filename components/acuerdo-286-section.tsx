@@ -16,18 +16,25 @@ export function Acuerdo286Section() {
 
           {/* Definition Card */}
           <Card className="border-2 border-primary/20 shadow-lg">
-            <CardContent>
+            <CardContent className="space-y-4">
               <p className="text-lg leading-relaxed text-foreground text-pretty">
-                <strong className="text-primary font-semibold"></strong> El Acuerdo 286 es el marco normativo que permite el reconocimiento oficial de conocimientos y estudios adquiridos fuera del sistema escolar formal. <br />Establece los procedimientos para:
-                  <li className="flex items-start gap-2">
-                    <span className="text-secondary mt-1">•</span>
-                    <span>Revalidar o homologar estudios.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-secondary mt-1">•</span>
-                    <span>Acreditar aprendizajes obtenidos mediante experiencia laboral, formación autodidacta o capacitación para el trabajo.</span>
-                  </li>
-                <strong className="text-primary font-semibold"></strong> Su objetivo es validar los saberes para facilitar la continuidad educativa y la certificación formal.
+                <strong className="text-primary font-semibold">Acuerdo 286:</strong> El marco normativo que permite el reconocimiento oficial de conocimientos y estudios adquiridos fuera del sistema escolar formal.
+              </p>
+              <p className="text-lg leading-relaxed text-foreground">
+                Establece los procedimientos para:
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-foreground">Revalidar o homologar estudios.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-foreground">Acreditar aprendizajes obtenidos mediante experiencia laboral, formación autodidacta o capacitación para el trabajo.</span>
+                </li>
+              </ul>
+              <p className="text-lg leading-relaxed text-foreground text-pretty">
+                <strong className="text-primary font-semibold">Su objetivo:</strong> Validar los saberes para facilitar la continuidad educativa y la certificación formal.
               </p>
             </CardContent>
           </Card>
