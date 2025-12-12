@@ -64,17 +64,26 @@ export function AboutSection() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </div>
 
-            {/* Mission Block */}
-            <Card className="border-2 border-primary/20 hover:border-primary/40 transition-colors hover:shadow-xl duration-300 group">
-              <CardContent className="p-8 lg:p-10 space-y-5">
-                <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Target className="w-7 h-7 text-primary" />
+      {/* Mission & Vision Full-Width Band */}
+      <div className="bg-primary mt-16 lg:mt-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto py-16 lg:py-20">
+            <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
+              {/* Misión */}
+              <div className="space-y-5">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary-foreground/10 rounded-xl flex items-center justify-center backdrop-blur-sm">
+                    <Target className="w-6 h-6 text-primary-foreground" />
+                  </div>
+                  <h3 className="font-serif font-bold text-3xl lg:text-4xl text-primary-foreground tracking-tight">
+                    Misión
+                  </h3>
                 </div>
-                <h3 className="font-serif font-bold text-2xl lg:text-3xl text-foreground tracking-tight">
-                  Misión
-                </h3>
-                <p className="text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty">
+                <p className="text-base lg:text-lg text-primary-foreground/90 leading-relaxed text-pretty">
                   Formar personas libres y humanistas con pensamiento crítico
                   mediante una sólida preparación científica, técnica y
                   cultural, promoviendo en ellos aptitudes alineadas al respeto,
@@ -82,25 +91,26 @@ export function AboutSection() {
                   alta competitividad profesional para una mejor convivencia y
                   eficaz transformación de la sociedad.
                 </p>
-              </CardContent>
-            </Card>
+              </div>
 
-            <Card className="border-2 border-secondary/20 hover:border-secondary/40 transition-colors hover:shadow-xl duration-300 group">
-              <CardContent className="p-8 lg:p-10 space-y-5">
-                <div className="w-14 h-14 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Lightbulb className="w-7 h-7 text-secondary" />
+              {/* Visión */}
+              <div className="space-y-5">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary-foreground/10 rounded-xl flex items-center justify-center backdrop-blur-sm">
+                    <Lightbulb className="w-6 h-6 text-primary-foreground" />
+                  </div>
+                  <h3 className="font-serif font-bold text-3xl lg:text-4xl text-primary-foreground tracking-tight">
+                    Visión
+                  </h3>
                 </div>
-                <h3 className="font-serif font-bold text-2xl lg:text-3xl text-foreground tracking-tight">
-                  Visión
-                </h3>
-                <p className="text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty">
+                <p className="text-base lg:text-lg text-primary-foreground/90 leading-relaxed text-pretty">
                   Ser el centro de evaluación líder en el estado de Hidalgo,
                   reconocido por su excelencia, innovación y compromiso con la
                   validación de competencias profesionales bajo los más altos
                   estándares de calidad.
                 </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           </div>
         </div>
       </div>
