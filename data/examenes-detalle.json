@@ -71,45 +71,57 @@
     },
     {
         "id": "derecho",
-        "objetivo": "Evaluar y certificar los conocimientos jurídicos y competencias equivalentes a un Licenciado en Derecho, capaz de interpretar y aplicar el marco legal en diversas áreas del derecho.",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Derecho es evaluar y certificar oficialmente que el sustentante posee los conocimientos teóricos, las competencias prácticas y las habilidades de análisis jurídico equivalentes a los de un egresado del nivel de licenciatura en Derecho.",
         "dirigidoA": [
             {
-                "titulo": "Asesores Jurídicos",
-                "descripcion": "Profesionales con experiencia en consultoría legal, elaboración de contratos y asesoría en cumplimiento normativo."
+                "titulo": "Funcionarios y Servidores Públicos con Experiencia Jurídica",
+                "descripcion": "Personal de áreas jurídicas gubernamentales, actuarios, secretarios de acuerdos, oficiales judiciales o asistentes de magistrados con amplia experiencia en procedimientos legales."
             },
             {
-                "titulo": "Gestores Legales",
-                "descripcion": "Personas con experiencia en trámites administrativos, judiciales y representación ante autoridades."
+                "titulo": "Profesionales en Despachos y Notarías",
+                "descripcion": "Asistentes jurídicos senior, paralegales, gestores y administradores de bufetes o notarías con responsabilidades sustantivas en la elaboración de documentos, seguimiento de litigios y aplicación de normativas."
             },
             {
-                "titulo": "Especialistas en Áreas Específicas",
-                "descripcion": "Profesionales con conocimientos en derecho laboral, mercantil, fiscal o penal adquiridos por experiencia práctica."
+                "titulo": "Consultores y Asesores en Materia Legal",
+                "descripcion": "Personas que brindan asesoría en áreas como derecho laboral, mercantil, administrativo o civil, derivada de una prolongada experiencia práctica."
+            },
+            {
+                "titulo": "Profesionales con Formación Autodidacta",
+                "descripcion": "Individuos que han adquirido un conocimiento profundo y sistemático de la doctrina, legislación y jurisprudencia nacional a través del estudio independiente y la actualización continua."
+            },
+            {
+                "titulo": "Mediadores y Conciliadores Certificados",
+                "descripcion": "Profesionales con experiencia formal en mecanismos alternativos de solución de controversias."
             }
         ],
         "estructura": [
-            "Examen Teórico (180 reactivos)",
+            "Examen Teórico (160 reactivos)",
             "Examen Práctico"
         ]
     },
     {
         "id": "pedagogia",
-        "objetivo": "Certificar que el sustentante posee los conocimientos y competencias pedagógicas equivalentes a un Licenciado en Pedagogía, capaz de diseñar, implementar y evaluar procesos educativos.",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Pedagogía es evaluar y certificar oficialmente que el sustentante posee los conocimientos, habilidades y competencias teórico-prácticas equivalentes a las de un egresado del nivel de licenciatura en Pedagogía.",
         "dirigidoA": [
             {
-                "titulo": "Docentes en Activo",
-                "descripcion": "Profesores con experiencia en la enseñanza en diferentes niveles educativos sin contar con título en pedagogía."
+                "titulo": "Experiencia Laboral Docente o Directiva",
+                "descripcion": "Educadores, instructores, capacitadores, coordinadores académicos o directivos con años de servicio en instituciones educativas de cualquier nivel."
             },
             {
-                "titulo": "Capacitadores Corporativos",
-                "descripcion": "Profesionales dedicados a la formación y desarrollo de personal en empresas u organizaciones."
+                "titulo": "Formación Autodidacta",
+                "descripcion": "Personas que han realizado un estudio sistemático e independiente de teorías pedagógicas, metodologías didácticas, psicología educativa y gestión escolar."
             },
             {
-                "titulo": "Diseñadores Instruccionales",
-                "descripcion": "Personas con experiencia en el diseño de contenidos educativos, cursos y materiales didácticos."
+                "titulo": "Capacitación y Actualización Continua",
+                "descripcion": "Profesionales que han acumulado diplomados, cursos especializados, seminarios y otras formas de educación no formal en áreas pedagógicas."
+            },
+            {
+                "titulo": "Otros Aprendizajes en Contextos Educativos",
+                "descripcion": "Personas que han participado en el diseño de programas educativos, materiales didácticos o proyectos de intervención comunitaria con fines pedagógicos, proyectos de investigación educativa."
             }
         ],
         "estructura": [
-            "Examen Teórico (150 reactivos)",
+            "Examen Teórico (160 reactivos)",
             "Examen Práctico"
         ]
     },
