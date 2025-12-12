@@ -29,4 +29,10 @@
     "pregunta": "¿El costo total se paga al inicio?",
     "respuesta": "No, el pago se realiza en etapas. Hay un pago inicial al momento de la inscripción y el resto se cubre una vez que tu portafolio de evidencias ha sido aprobado y antes de la fase final de evaluación."
   }
+  ,
+  {
+    "id": 7,
+    "pregunta": "¿El costo total ?",
+    "respuesta": "No, el pago se realiza en etapas. Hay un pago inicial al momento de la inscripción y el resto se cubre una vez que tu portafolio de evidencias ha sido aprobado y antes de la fase final de evaluación."
+  }
 ]
