@@ -1,9 +1,9 @@
 [
   {
     "id": "administracion",
-    "nombre": "Licenciatura en Administración",
+    "nombre": "EXUNAL - Licenciatura en Administración",
     "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Lic. en Administración validando tu experiencia profesional.",
+    "descripcion": "Evaluación de conocimientos específicos en el área de administración.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
@@ -21,9 +21,9 @@
   },
   {
     "id": "contaduria",
-    "nombre": "Licenciatura en Contaduría",
+    "nombre": "EXUNAL - Licenciatura en Contaduría",
     "categoria": "Nivel Superior",
-    "descripcion": "Valida tus conocimientos contables y fiscales para obtener tu título profesional.",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Contaduría. Este programa requiere al menos 50% de créditos cursados.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
@@ -41,9 +41,9 @@
   },
   {
     "id": "sistemas",
-    "nombre": "Ingeniería en Sistemas Computacionales",
+    "nombre": "EXUNAL - Licenciatura en Ciencias Computacionales",
     "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Ingeniero en Sistemas validando tu experiencia en desarrollo, redes y BD.",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Ciencias Computacionales.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
