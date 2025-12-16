@@ -28,8 +28,8 @@ export function ContactSection() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold text-foreground">Correo Institucional</h3>
-                      <p className="text-muted-foreground">examenes@cuh.edu.mx</p>
-                      <p className="text-sm text-muted-foreground">Respuesta en 24-48 horas</p>
+                      <p className="text-muted-foreground">olivia.garcia@posgradocuh.edu.mx</p>
+                      <p className="text-muted-foreground">promocion@cuh.mx</p>
                     </div>
                   </div>
 
@@ -39,8 +39,8 @@ export function ContactSection() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold text-foreground">Teléfonos</h3>
-                      <p className="text-muted-foreground">771 123 4567</p>
-                      <p className="text-muted-foreground">771 123 4568</p>
+                      <p className="text-muted-foreground">771 719 53 00</p>
+                      <p className="text-muted-foreground">771 719 53 01</p>
                     </div>
                   </div>
 
@@ -50,8 +50,8 @@ export function ContactSection() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold text-foreground">Horarios de Atención</h3>
-                      <p className="text-muted-foreground">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
-                      <p className="text-muted-foreground">Sábados: 9:00 AM - 2:00 PM</p>
+                      <p className="text-muted-foreground">Lunes a Viernes: 7:00 AM - 10:00 PM</p>
+                      <p className="text-muted-foreground">Sábados: 7:00 AM - 4:00 PM</p>
                     </div>
                   </div>
 
@@ -62,7 +62,7 @@ export function ContactSection() {
                     <div className="space-y-1">
                       <h3 className="font-semibold text-foreground">Dirección</h3>
                       <p className="text-muted-foreground text-pretty">
-                        Boulevard Felipe Ángeles #506, Col. Venta Prieta, Pachuca de Soto, Hidalgo, México. CP 42080
+                        Boulevard del Minero #305 Colonia Rojo Gómez Pachuca, Hgo. C.P. 42030
                       </p>
                     </div>
                   </div>
@@ -77,15 +77,17 @@ export function ContactSection() {
 
             {/* Map */}
             <Card className="overflow-hidden">
-              <CardContent className="p-0 h-full min-h-[400px] bg-muted">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <div className="text-center space-y-2 p-8">
-                    <MapPin className="w-12 h-12 mx-auto text-primary" />
-                    <p className="font-semibold">Mapa de Ubicación</p>
-                    <p className="text-sm">Centro Universitario Hidalguense</p>
-                    <p className="text-xs">Boulevard Felipe Ángeles #506</p>
-                  </div>
-                </div>
+              <CardContent className="p-0 h-full min-h-[400px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1324.4912378575782!2d-98.75326496620303!3d20.124616319274338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d10a032d4ddb1b%3A0xf397144c38bcb070!2sCentro%20Universitario%20Hidalguense!5e0!3m2!1ses-419!2smx!4v1765855252183!5m2!1ses-419!2smx"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: '400px' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Ubicación Centro Universitario Hidalguense"
+                />
               </CardContent>
             </Card>
           </div>

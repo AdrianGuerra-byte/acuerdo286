@@ -4,7 +4,6 @@ import { AboutSection } from "@/components/about-section";
 import { Acuerdo286Section } from "@/components/acuerdo-286-section";
 import { ExamCatalog } from "@/components/exam-catalog";
 import { CalendarSection } from "@/components/calendar-section";
-import { MaterialsSection } from "@/components/materials-section";
 import { RegistrationProcessSection } from "@/components/registration-process-section";
 import { RequirementsSection } from "@/components/requirements-section";
 import { FAQSection } from "@/components/faq-section";
@@ -23,7 +22,6 @@ export default function HomePage() {
         <RequirementsSection />
         <ExamCatalog />
         <CalendarSection />
-        <MaterialsSection />
         <RegistrationProcessSection />
         <TestimonialsSection />
         <FAQSection />

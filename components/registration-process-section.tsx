@@ -22,10 +22,10 @@ export function RegistrationProcessSection() {
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-              Proceso de Titulación
+              Proceso de inscripcion
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl mx-auto">
-              Sigue estos pasos para obtener tu Título Universitario por experiencia laboral.
+              Sigue estos pasos para poder inscribirte y presentar el examen.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export function RegistrationProcessSection() {
               className="hidden lg:block absolute top-16 left-0 right-0 h-0.5 bg-border"
               style={{ left: "10%", right: "10%" }}
             />
-                        
+
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-4">
               {procesoData.map((step) => {
                 const Icon = iconMap[step.icon]
@@ -78,7 +78,7 @@ export function RegistrationProcessSection() {
           {/* CTA */}
           <div className="text-center pt-8">
             <Button asChild size="lg" className="text-base font-medium">
-              <Link href="/inscripcion">Inicia tu Proceso de Titulación</Link>
+              <Link href="/inscripcion">Inscribirse Ahora</Link>
             </Button>
           </div>
         </div>

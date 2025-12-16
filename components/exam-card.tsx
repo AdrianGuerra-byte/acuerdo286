@@ -63,9 +63,16 @@ export function ExamCard({ exam, onViewDetails }: ExamCardProps) {
             <CardTitle className="font-serif text-xl lg:text-2xl leading-tight text-balance text-foreground">
               {exam.nombre}
             </CardTitle>
-            <Badge variant="secondary" className="mt-2 font-medium text-xs">
-              {exam.categoria}
-            </Badge>
+            <div className="flex items-center gap-2 mt-2">
+              <Badge variant="secondary" className="font-medium text-xs">
+                {exam.categoria}
+              </Badge>
+              <Badge
+                className="font-semibold text-xs bg-foreground text-background border border-foreground/20 hover:bg-foreground/90 shadow-sm"
+              >
+                EXUNAL
+              </Badge>
+            </div>
           </div>
         </div>
       </div>
