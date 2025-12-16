@@ -1,89 +1,9 @@
 [
-  {
-    "id": "administracion",
-    "nombre": "Licenciatura en Administración",
-    "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Lic. en Administración validando tu experiencia profesional.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Administración, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
-    "id": "contaduria",
-    "nombre": "Licenciatura en Contaduría",
-    "categoria": "Nivel Superior",
-    "descripcion": "Valida tus conocimientos contables y fiscales para obtener tu título profesional.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Contaduría, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
-    "id": "sistemas",
-    "nombre": "Ingeniería en Sistemas Computacionales",
-    "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Ingeniero en Sistemas validando tu experiencia en desarrollo, redes y BD.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 15,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Ingeniería en Sistemas, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
-    "id": "derecho",
-    "nombre": "Licenciatura en Derecho",
-    "categoria": "Nivel Superior",
-    "descripcion": "Evaluación de conocimientos específicos en el área de Derecho,*Este programa requiere al menos 50% de créditos cursados.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Derecho, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
+   {
     "id": "pedagogia",
-    "nombre": "Licenciatura en Pedagogía",
+    "nombre": "EXUNAL - Licenciatura en Pedagogía",
     "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Lic. en Pedagogía validando tu experiencia en el ámbito educativo.",
+    "descripcion": "Evaluación de conocimientos fundamentales y específicos del campo de la Pedagogía.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
@@ -100,15 +20,15 @@
     "fechaResultados": "45 días post-evaluación"
   },
   {
-    "id": "mercadotecnia",
-    "nombre": "Licenciatura en Mercadotecnia",
+    "id": "administracion",
+    "nombre": "EXUNAL - Licenciatura en Administración",
     "categoria": "Nivel Superior",
-    "descripcion": "Valida tu experiencia en estrategias comerciales y obtén tu título profesional.",
+    "descripcion": "Evaluación de conocimientos específicos en el área de administración.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
     "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Mercadotecnia, con base en la experiencia laboral.",
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Administración, con base en la experiencia laboral.",
     "requisitos": [
       "Experiencia laboral mínima de 3 años en el área.",
       "Identificación oficial vigente.",
@@ -118,5 +38,65 @@
     "fechaRegistro": "Abierto todo el año",
     "fechaExamen": "Fechas flexibles",
     "fechaResultados": "45 días post-evaluación"
-  }
+  },
+ {
+    "id": "sistemas",
+    "nombre": "EXUNAL - Licenciatura en Ciencias Computacionales",
+    "categoria": "Nivel Superior",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Ciencias Computacionales.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 15,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Ingeniería en Sistemas, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "contaduria",
+    "nombre": "EXUNAL - Licenciatura en Contaduría",
+    "categoria": "Nivel Superior",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Contaduría. Este programa requiere al menos 50% de créditos cursados.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Contaduría, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+  {
+    "id": "derecho",
+    "nombre": "EXUNAL - Licenciatura en Derecho",
+    "categoria": "Nivel Superior",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Derecho. Este programa requiere al menos 50% de créditos cursados.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Derecho, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+ }
 ]
