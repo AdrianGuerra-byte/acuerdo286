@@ -1,0 +1,138 @@
+[
+    {
+        "id": "contaduria",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Contaduría es evaluar y certificar oficialmente que el sustentante posee los conocimientos, competencias técnicas y habilidades prácticas equivalentes a los de un egresado del nivel de licenciatura en Contaduría Pública.",
+        "dirigidoA": [
+            {
+                "titulo": "Experiencia Práctica en Contabilidad",
+                "descripcion": "Contadores prácticos, auxiliares contables senior, responsables de departamentos de contabilidad general o costos con años de experiencia en el registro, análisis e interpretación de información financiera."
+            },
+            {
+                "titulo": "Especialistas en Áreas Fiscales y Auditoría",
+                "descripcion": "Profesionales con experiencia en la preparación y presentación de declaraciones fiscales, cumplimiento de obligaciones tributarias, o en la realización de auditorías internas."
+            },
+            {
+                "titulo": "Profesionales con Formación Autodidacta",
+                "descripcion": "Personas que han adquirido conocimientos sólidos en principios contables, normativas fiscales (como el Código Fiscal de la Federación, NIF), y finanzas a través del estudio independiente y la actualización continua."
+            },
+            {
+                "titulo": "Asesores y Consultores Independientes",
+                "descripcion": "Contadores o asesores fiscales que prestan servicios de manera freelance o en despachos pequeños, con experiencia en la planeación financiera y el cumplimiento normativo para personas físicas o morales."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (160 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "administracion",
+        "objetivo": "Evaluar y certificar que el sustentante posee los conocimientos, competencias y habilidades equivalentes a un egresado en Administración, capaz de gestionar recursos, tomar decisiones estratégicas y liderar equipos de trabajo.",
+        "dirigidoA": [
+            {
+                "titulo": "Gerentes y Supervisores",
+                "descripcion": "Profesionales con experiencia en la dirección de equipos, toma de decisiones operativas y gestión de recursos en organizaciones públicas o privadas."
+            },
+            {
+                "titulo": "Emprendedores",
+                "descripcion": "Personas que han desarrollado y administrado sus propios negocios, adquiriendo conocimientos prácticos en planeación, organización y control empresarial."
+            },
+            {
+                "titulo": "Coordinadores de Proyectos",
+                "descripcion": "Profesionales con experiencia en la planificación, ejecución y evaluación de proyectos empresariales o sociales."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (150 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "sistemas",
+        "objetivo": "Certificar que el sustentante cuenta con los conocimientos y competencias equivalentes a un Ingeniero en Sistemas Computacionales, capaz de desarrollar, implementar y mantener soluciones tecnológicas.",
+        "dirigidoA": [
+            {
+                "titulo": "Desarrolladores de Software",
+                "descripcion": "Programadores con experiencia en lenguajes de programación, desarrollo de aplicaciones web, móviles o de escritorio."
+            },
+            {
+                "titulo": "Administradores de Sistemas",
+                "descripcion": "Profesionales con experiencia en configuración, mantenimiento y seguridad de servidores, redes y bases de datos."
+            },
+            {
+                "titulo": "Especialistas en TI",
+                "descripcion": "Profesionales autodidactas con conocimientos en análisis de sistemas, arquitectura de software y metodologías de desarrollo."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (170 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "derecho",
+        "objetivo": "Evaluar y certificar los conocimientos jurídicos y competencias equivalentes a un Licenciado en Derecho, capaz de interpretar y aplicar el marco legal en diversas áreas del derecho.",
+        "dirigidoA": [
+            {
+                "titulo": "Asesores Jurídicos",
+                "descripcion": "Profesionales con experiencia en consultoría legal, elaboración de contratos y asesoría en cumplimiento normativo."
+            },
+            {
+                "titulo": "Gestores Legales",
+                "descripcion": "Personas con experiencia en trámites administrativos, judiciales y representación ante autoridades."
+            },
+            {
+                "titulo": "Especialistas en Áreas Específicas",
+                "descripcion": "Profesionales con conocimientos en derecho laboral, mercantil, fiscal o penal adquiridos por experiencia práctica."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (180 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "pedagogia",
+        "objetivo": "Certificar que el sustentante posee los conocimientos y competencias pedagógicas equivalentes a un Licenciado en Pedagogía, capaz de diseñar, implementar y evaluar procesos educativos.",
+        "dirigidoA": [
+            {
+                "titulo": "Docentes en Activo",
+                "descripcion": "Profesores con experiencia en la enseñanza en diferentes niveles educativos sin contar con título en pedagogía."
+            },
+            {
+                "titulo": "Capacitadores Corporativos",
+                "descripcion": "Profesionales dedicados a la formación y desarrollo de personal en empresas u organizaciones."
+            },
+            {
+                "titulo": "Diseñadores Instruccionales",
+                "descripcion": "Personas con experiencia en el diseño de contenidos educativos, cursos y materiales didácticos."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (150 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "mercadotecnia",
+        "objetivo": "Evaluar y certificar los conocimientos y competencias equivalentes a un Licenciado en Mercadotecnia, capaz de desarrollar estrategias comerciales, analizar mercados y gestionar marcas.",
+        "dirigidoA": [
+            {
+                "titulo": "Especialistas en Marketing Digital",
+                "descripcion": "Profesionales con experiencia en gestión de redes sociales, publicidad digital, SEO y análisis de métricas."
+            },
+            {
+                "titulo": "Gerentes Comerciales",
+                "descripcion": "Personas con trayectoria en ventas, desarrollo de mercados y estrategias de posicionamiento de productos o servicios."
+            },
+            {
+                "titulo": "Emprendedores y Consultores",
+                "descripcion": "Profesionales que han desarrollado estrategias de branding, investigación de mercados y campañas publicitarias de manera independiente."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (155 reactivos)",
+            "Examen Práctico"
+        ]
+    }
+]

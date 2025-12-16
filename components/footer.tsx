@@ -18,7 +18,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed text-pretty">
-              Institución autorizada por la SEP para la titulación mediante el Acuerdo 286.
+              Institución autorizada por la SEP para la titulación por experiencia laboral mediante el Acuerdo 286.
             </p>
             <div className="flex items-center gap-3">
               <a
