@@ -32,11 +32,10 @@ export function ExamCatalog() {
             {/* Header */}
             <div className="text-center space-y-4">
               <h2 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground text-balance">
-                Licenciaturas por Experiencia Laboral
+                Licenciaturas.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-                Elige la licenciatura que deseas acreditar y obtén tu título
-                universitario.
+                Elige la licenciatura que deseas acreditar.
               </p>
             </div>
 

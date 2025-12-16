@@ -8,29 +8,22 @@
   },
   {
     "number": 2,
-    "title": "Carga de Documentos",
-    "description": "Sube tu CV, certificado de bachillerato, CURP e identificación oficial.",
-    "icon": "FileUp",
+    "title": "Generacion de Ficha y pago",
+    "description": "Se generará una ficha de pago que deberás cubrir para continuar con el proceso.",
+    "icon": "CreditCard",
     "color": "secondary"
   },
   {
     "number": 3,
-    "title": "Portafolio de Evidencias",
-    "description": "Integra y presenta tu portafolio demostrando tu experiencia y competencias.",
-    "icon": "Book",
-    "color": "accent"
-  },
-  {
-    "number": 4,
-    "title": "Evaluación y Pago",
-    "description": "Tu portafolio será evaluado. Una vez aprobado, realiza el pago correspondiente.",
-    "icon": "CreditCard",
+    "title": "Carga de Documentos",
+    "description": "Sube toda tu documentacion y ficha de pago, una vez validada se te brindara la informacion para presentar tu examen.",
+    "icon": "FileUp",
     "color": "primary"
   },
   {
-    "number": 5,
-    "title": "Titulación",
-    "description": "Al aprobar la evaluación, se iniciará el trámite para la emisión de tu Título Profesional.",
+    "number": 4,
+    "title": "Presentar Examen",
+    "description": "Deberas acudir con tu pase de ingreso el dia de tu examen.",
     "icon": "Award",
     "color": "secondary"
   }

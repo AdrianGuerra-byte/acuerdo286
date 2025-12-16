@@ -12,13 +12,11 @@ export function RequirementsSection() {
           {/* Header */}
           <div className="text-center space-y-5">
             <h2 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground text-balance tracking-tight leading-[1.1]">
-              <span className="block">Requisitos para</span>
-              <span className="block text-primary">Titulación</span>
+              <span className="block text-primary">Requisitos</span>
             </h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto rounded-full" />
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed text-pretty max-w-3xl mx-auto pt-2">
-              Conoce los documentos y condiciones necesarias para obtener tu
-              título.
+              Conoce los documentos y condiciones necesarias.
             </p>
           </div>
 
@@ -56,8 +54,8 @@ export function RequirementsSection() {
           </Card>
 
           {/* Grid with Experience and Additional Info */}
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            {/* Experiencia Laboral */}
+          {/* <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+
             <Card className="border-2 border-secondary/20 hover:border-secondary/40 transition-colors hover:shadow-xl duration-300 group">
               <CardContent className="p-8 lg:p-10 space-y-5">
                 <div className="w-14 h-14 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -78,7 +76,7 @@ export function RequirementsSection() {
               </CardContent>
             </Card>
 
-            {/* Consideraciones Adicionales */}
+
             <Card className="border-2 border-muted/40 hover:border-muted/60 transition-colors hover:shadow-xl duration-300 group">
               <CardContent className="p-8 lg:p-10 space-y-5">
                 <div className="w-14 h-14 bg-gradient-to-br from-muted/40 to-muted/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -93,7 +91,7 @@ export function RequirementsSection() {
                 </p>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
 
           {/* Políticas del Proceso - Alert Card */}
           <Card className="border-2 border-primary/30 bg-primary/5 hover:shadow-xl transition-shadow duration-300">
