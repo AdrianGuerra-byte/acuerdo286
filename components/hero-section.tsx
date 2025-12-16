@@ -25,21 +25,18 @@ export function HeroSection() {
 
             {/* Title & Description */}
             <div className="space-y-5 lg:space-y-7">
-              <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.08] text-balance tracking-[-0.02em] drop-shadow-lg">
-                <span className="block text-primary-foreground/95 mb-2 lg:mb-3">
-                  EXAMEN ÚNICO DE
+              <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.15] text-balance tracking-[-0.02em] drop-shadow-lg">
+                <span className="block text-primary-foreground mb-3 md:mb-4 lg:mb-5">
+                  Examen Único de Acreditación
                 </span>
-                <span className="block text-primary-foreground text-shadow-md">
-                  ACREDITACIÓN DE
+                <span className="block text-primary-foreground/90 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                  Licenciatura CUH
                 </span>
-                <span className="block text-primary-foreground/95 mt-1 lg:mt-2">
-                  LICENCIATURA CUH
-                </span>
-                <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary-foreground/80 font-semibold mt-3 lg:mt-4 tracking-wide">
-                  (EXUNAL-CUH)
+                <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/70 font-semibold mt-3 md:mt-4 tracking-normal">
+                  EXUNAL-CUH
                 </span>
               </h1>
-              <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-primary-foreground/85 font-normal leading-relaxed text-pretty max-w-2xl border-l-4 border-primary-foreground/30 pl-5 lg:pl-6">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-primary-foreground/85 font-normal leading-relaxed text-pretty max-w-2xl border-l-4 border-primary-foreground/30 pl-4 sm:pl-5 lg:pl-6">
                 Evalúa tus conocimientos en el Centro Universitario Hidalguense
                 (CUH) y obtén tu título con Validez Oficial ante la Secretaría
                 de Educación Pública (SEP).
