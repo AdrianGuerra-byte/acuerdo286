@@ -1,22 +1,23 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16">
           {/* Brand */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-xl">CUH</span>
-              </div>
-              <div>
-                <div className="font-serif font-bold text-lg">Centro Universitario</div>
-                <div className="text-sm text-primary-foreground/80">Hidalguense</div>
-              </div>
-            </div>
+          <div className="space-y-4 lg:col-span-1">
+            <Link href="/">
+              <Image
+                src="/logo-cuh.avif"
+                alt="Centro Universitario Hidalguense"
+                width={200}
+                height={67}
+                className="h-12 w-auto "
+              />
+            </Link>
             <p className="text-sm text-primary-foreground/80 leading-relaxed text-pretty">
               Institución autorizada por la SEP para la titulación por experiencia laboral mediante el Acuerdo 286.
             </p>
@@ -51,7 +52,15 @@ export function Footer() {
           {/* Enlaces Rápidos */}
           <div className="space-y-4">
             <h3 className="font-serif font-bold text-lg">Enlaces Rápidos</h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-3 text-sm">
+              <li>
+                <Link
+                  href="/#quienes-somos"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Quiénes Somos
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/#acuerdo-286"
@@ -95,59 +104,38 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Servicios */}
-          <div className="space-y-4">
-            <h3 className="font-serif font-bold text-lg">Servicios</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Oferta Educativa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Servicios Escolares
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Biblioteca
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Becas y Financiamiento
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Bolsa de Trabajo
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Contacto */}
           <div className="space-y-4">
             <h3 className="font-serif font-bold text-lg">Contacto</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-1 flex-shrink-0 text-primary-foreground/60" />
-                <a
-                  href="mailto:examenes@cuh.edu.mx"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
-                  examenes@cuh.edu.mx
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="mailto:olivia.garcia@posgradocuh.edu.mx"
+                    className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
+                    olivia.garcia@posgradocuh.edu.mx
+                  </a>
+                  <a
+                    href="mailto:promocion@cuh.mx"
+                    className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
+                    promocion@cuh.mx
+                  </a>
+                </div>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-1 flex-shrink-0 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">771 123 4567</span>
+                <div className="space-y-1">
+                  <span className="block text-primary-foreground/80">771 719 53 00</span>
+                  <span className="block text-primary-foreground/80">771 719 53 01</span>
+                </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-primary-foreground/60" />
                 <span className="text-primary-foreground/80 text-pretty">
-                  Boulevard Felipe Ángeles #506, Pachuca, Hidalgo
+                  Boulevard del Minero #305 Colonia Rojo Gómez Pachuca, Hgo. C.P. 42030
                 </span>
               </li>
             </ul>

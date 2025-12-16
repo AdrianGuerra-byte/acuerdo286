@@ -1,0 +1,30 @@
+[
+  {
+    "number": 1,
+    "title": "Solicitud de Admisión",
+    "description": "Completa el formulario con tus datos y selecciona la licenciatura que deseas acreditar.",
+    "icon": "UserCircle",
+    "color": "primary"
+  },
+  {
+    "number": 2,
+    "title": "Generacion de Ficha y pago",
+    "description": "Se generará una ficha de pago que deberás cubrir para continuar con el proceso.",
+    "icon": "CreditCard",
+    "color": "secondary"
+  },
+  {
+    "number": 3,
+    "title": "Carga de Documentos",
+    "description": "Sube toda tu documentacion y ficha de pago, una vez validada se te brindara la informacion para presentar tu examen.",
+    "icon": "FileUp",
+    "color": "primary"
+  },
+  {
+    "number": 4,
+    "title": "Presentar Examen",
+    "description": "Deberas acudir con tu pase de ingreso el dia de tu examen.",
+    "icon": "Award",
+    "color": "secondary"
+  }
+]

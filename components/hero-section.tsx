@@ -1,90 +1,93 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { GraduationCap, Award } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { GraduationCap, Award } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="relative bg-primary text-primary-foreground overflow-hidden">
+    <section className="relative bg-primary text-primary-foreground overflow-hidden min-h-[90vh] flex items-center">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:32px_32px]" />
 
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      {/* Animated gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-primary/90" />
+
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Content */}
-          <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 bg-primary-foreground/10 px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
-              <Award className="w-4 h-4" />
-              <span>Centro aplicador autorizado por la SEP</span>
+          <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 bg-primary-foreground/10 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm border border-primary-foreground/20 shadow-lg">
+              <Award className="w-4 h-4 flex-shrink-0" />
+              <span className="leading-tight">
+                Institución Evaluadora por Acuerdo 286 Autorizada por DGAIR
+              </span>
             </div>
 
-            <div className="space-y-4">
-              <h1 className="font-serif font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-balance">
-                Titúlate por Experiencia Laboral con Acuerdo 286
+            {/* Title & Description */}
+            <div className="space-y-5 lg:space-y-7">
+              <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.15] text-balance tracking-[-0.02em] drop-shadow-lg">
+                <span className="block text-primary-foreground mb-3 md:mb-4 lg:mb-5">
+                  Examen Único de Acreditación
+                </span>
+                <span className="block text-primary-foreground/90 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                  Licenciatura CUH
+                </span>
+                <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/70 font-semibold mt-3 md:mt-4 tracking-normal">
+                  EXUNAL-CUH
+                </span>
               </h1>
-              <p className="text-xl lg:text-2xl text-primary-foreground/90 font-light text-pretty">
-                Obtén tu título universitario validando tus conocimientos y experiencia profesional.
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-primary-foreground/85 font-normal leading-relaxed text-pretty max-w-2xl border-l-4 border-primary-foreground/30 pl-4 sm:pl-5 lg:pl-6">
+                Evalúa tus conocimientos en el Centro Universitario Hidalguense
+                (CUH) y obtén tu título con Validez Oficial ante la Secretaría
+                de Educación Pública (SEP).
               </p>
             </div>
 
-            <p className="text-lg text-primary-foreground/80 leading-relaxed max-w-2xl text-pretty">
-              El Centro Universitario Hidalguense te ofrece la oportunidad de obtener tu título de Licenciatura a través del Acuerdo 286 de la SEP, reconociendo la experiencia que ya tienes.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" variant="secondary" className="text-base font-medium">
-                <Link href="/#oferta">Consulta la Oferta de Exámenes</Link>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 pt-2">
+              <Button
+                asChild
+                size="lg"
+                variant="secondary"
+                className="text-base font-medium shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+              >
+                <Link href="/#oferta">
+                  Consulta Nuestros Perfiles Autorizados
+                </Link>
               </Button>
               <Button
                 asChild
                 size="lg"
                 variant="outline"
-                className="text-base font-medium bg-transparent text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/10"
+                className="text-base font-medium bg-transparent text-primary-foreground border-2 border-primary-foreground/30 hover:bg-primary-foreground/10 hover:border-primary-foreground/50 transition-all hover:scale-105"
               >
                 <Link href="/inscripcion">Inscríbete Aquí</Link>
               </Button>
             </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-primary-foreground/20">
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">500+</div>
-                <div className="text-sm text-primary-foreground/70">Certificaciones</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">15+</div>
-                <div className="text-sm text-primary-foreground/70">Años de Experiencia</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold font-serif">98%</div>
-                <div className="text-sm text-primary-foreground/70">Satisfacción</div>
-              </div>
-            </div>
           </div>
 
           {/* Image */}
-          <div className="relative lg:h-[600px] h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img
-              src="/students-taking-examination-in-professional-univer.jpg"
-              alt="Estudiantes durante evaluación"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
+          <div className="relative order-1 lg:order-2">
+            <div className="relative lg:h-[550px] md:h-[450px] h-[350px] rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+              <img
+                src="/students-taking-examination-in-professional-univer.jpg"
+                alt="Estudiantes durante evaluación"
+                className="w-full h-full object-cover"
+              />
+              {/* Gradient overlays */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-primary/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-transparent" />
 
-            {/* Floating Cards */}
-            <div className="absolute bottom-6 left-6 right-6 bg-card/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                  <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <div className="font-semibold text-card-foreground">Próxima fecha de examen</div>
-                  <div className="text-sm text-muted-foreground">5 de abril de 2025</div>
-                </div>
-              </div>
+              {/* Decorative border */}
+              <div className="absolute inset-0 border-4 border-primary-foreground/10 rounded-2xl lg:rounded-3xl" />
             </div>
+
+            {/* Floating decoration element */}
+            <div className="hidden lg:block absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-3xl" />
+            <div className="hidden lg:block absolute -top-6 -left-6 w-40 h-40 bg-primary-foreground/10 rounded-full blur-3xl" />
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
