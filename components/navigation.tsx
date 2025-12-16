@@ -12,69 +12,69 @@ export function Navigation() {
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+        <div className="flex items-center justify-between h-16 lg:h-20 gap-8">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center flex-shrink-0">
             <Image
               src="/logo-cuh.avif"
               alt="Centro Universitario Hidalguense"
               width={180}
               height={60}
-              className="h-12 lg:h-14 w-auto"
+              className="h-10 lg:h-12 w-auto"
               priority
             />
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          {/* Desktop Navigation - Centered */}
+          <div className="hidden lg:flex items-center justify-center flex-1 gap-6 xl:gap-7">
             <Link
               href="/#quienes-somos"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               Quiénes Somos
             </Link>
             <Link
               href="/#acuerdo-286"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               Acuerdo 286
             </Link>
             <Link
               href="/#oferta"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
-              Oferta de Exámenes
+              Exámenes
             </Link>
             <Link
               href="/#calendario"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               Calendario
             </Link>
             <Link
               href="/#proceso"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
-              Proceso de Inscripción
+              Inscripción
             </Link>
             <Link
               href="/#faq"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
-              Preguntas Frecuentes
+              FAQ
             </Link>
             <Link
               href="/#contacto"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               Contacto
             </Link>
           </div>
 
           {/* CTA Button Desktop */}
-          <div className="hidden lg:block">
-            <Button asChild size="lg" className="font-medium">
-              <Link href="/inscripcion">Inscríbete Ahora</Link>
+          <div className="hidden lg:block flex-shrink-0">
+            <Button asChild className="font-medium">
+              <Link href="/inscripcion">Inscríbete</Link>
             </Button>
           </div>
 
