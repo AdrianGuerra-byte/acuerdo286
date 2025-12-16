@@ -1,23 +1,28 @@
 [
     {
-        "id": "contaduria",
-        "objetivo": "El objetivo principal del EXUNAL-CUH en Contaduría es evaluar y certificar oficialmente que el sustentante posee los conocimientos, competencias técnicas y habilidades prácticas equivalentes a los de un egresado del nivel de licenciatura en Contaduría Pública.",
-        "dirigidoA": [
+        "id": "pedagogia",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Pedagogía es evaluar y certificar oficialmente que el sustentante posee los conocimientos, habilidades y competencias teórico-prácticas equivalentes a las de un egresado del nivel de licenciatura en Pedagogía.",
+        "dirigidoA": 
+        [
             {
-                "titulo": "Experiencia Práctica en Contabilidad",
-                "descripcion": "Contadores prácticos, auxiliares contables senior, responsables de departamentos de contabilidad general o costos con años de experiencia en el registro, análisis e interpretación de información financiera."
+                "titulo": "Este examen está dirigido a profesionales y personas con experiencia significativa en el campo de la educación que, a pesar de no contar con un título universitario formal, han desarrollado conocimientos sólidos a través de:"
             },
             {
-                "titulo": "Especialistas en Áreas Fiscales y Auditoría",
-                "descripcion": "Profesionales con experiencia en la preparación y presentación de declaraciones fiscales, cumplimiento de obligaciones tributarias, o en la realización de auditorías internas."
+                "titulo": "Experiencia Laboral Docente o Directiva",
+                "descripcion": "Educadores, instructores, capacitadores, coordinadores académicos o directivos con años de servicio en instituciones educativas de cualquier nivel."
             },
             {
-                "titulo": "Profesionales con Formación Autodidacta",
-                "descripcion": "Personas que han adquirido conocimientos sólidos en principios contables, normativas fiscales (como el Código Fiscal de la Federación, NIF), y finanzas a través del estudio independiente y la actualización continua."
+                "titulo": "Formación Autodidacta",
+                "descripcion": "Personas que han realizado un estudio sistemático e independiente de teorías pedagógicas, metodologías didácticas, psicología educativa y gestión escolar."
             },
             {
-                "titulo": "Asesores y Consultores Independientes",
-                "descripcion": "Contadores o asesores fiscales que prestan servicios de manera freelance o en despachos pequeños, con experiencia en la planeación financiera y el cumplimiento normativo para personas físicas o morales."
+                "titulo": "Capacitación y Actualización Continua",
+                "descripcion": "Profesionales que han acumulado diplomados, cursos especializados, seminarios y otras formas de educación no formal en áreas pedagógicas."
+            }
+            ,
+            {
+                "titulo": "Otros Aprendizajes en Contextos Educativos",
+                "descripcion": "Personas que han participado en el diseño de programas educativos, materiales didácticos o proyectos de intervención comunitaria con fines pedagógicos, proyectos de investigación educativa."
             }
         ],
         "estructura": [
@@ -27,8 +32,11 @@
     },
     {
         "id": "administracion",
-        "objetivo": "El objetivo del EXUNAL-CUH en Administración es evaluar y certificar de manera oficial que el sustentante posee los conocimientos, competencias y habilidades directivas equivalentes a las de un egresado de licenciatura en Administración o áreas afines.",
+        "objetivo": "Este examen está diseñado para profesionales con amplia trayectoria en el mundo empresarial, institucional o de gestión, que han desarrollado una sólida expertise práctica sin contar con un título universitario formal. Es ideal para:",
         "dirigidoA": [
+            {
+                "titulo": "Educadores, instructores, capacitadores, coordinadores académicos o directivos con años de servicio en instituciones educativas de cualquier nivel."
+            },
             {
                 "titulo": "Profesionales con Experiencia en Gestión y Dirección",
                 "descripcion": "Emprendedores, gerentes, supervisores, jefes de área, coordinadores operativos y directivos con responsabilidad en la planeación, organización, dirección o control de recursos humanos, financieros o materiales."
@@ -57,6 +65,9 @@
         "objetivo": "El objetivo del EXUNAL-CUH en Ciencias Computacionales es evaluar y certificar oficialmente que el sustentante posee los conocimientos teóricos, las competencias técnicas y las habilidades de desarrollo y análisis equivalentes a los de un egresado de licenciatura en Ciencias Computacionales.",
         "dirigidoA": [
             {
+                "titulo": "Está diseñado para profesionales con experiencia práctica en tecnología que carecen de un título universitario formal, tales como:"
+            },
+            {
                 "titulo": "Programadores con experiencia en desarrollo de software."
             },
             {
@@ -76,52 +87,71 @@
             }
         ],
         "estructura": [
-            "Examen Teórico (170 reactivos)",
+            "Examen Teórico (160 reactivos)",
+            "Examen Práctico"
+        ]
+    },
+    {
+        "id": "contaduria",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Contaduría es evaluar y certificar oficialmente que el sustentante posee los conocimientos, competencias técnicas y habilidades prácticas equivalentes a los de un egresado del nivel de licenciatura en Contaduría Pública.",
+        "dirigidoA": [
+             {
+                "titulo": "Este examen está dirigido a profesionales con una trayectoria consolidada en el área contable y financiera que, sin poseer un título universitario formal, han adquirido conocimientos especializados a través de:"
+            },
+            {
+                "titulo": "Experiencia Práctica en Contabilidad",
+                "descripcion": "Contadores prácticos, auxiliares contables senior, responsables de departamentos de contabilidad general o costos con años de experiencia en el registro, análisis e interpretación de información financiera."
+            },
+            {
+                "titulo": "Especialistas en Áreas Fiscales y Auditoría",
+                "descripcion": "Profesionales con experiencia en la preparación y presentación de declaraciones fiscales, cumplimiento de obligaciones tributarias, o en la realización de auditorías internas."
+            },
+            {
+                "titulo": "Profesionales con Formación Autodidacta",
+                "descripcion": "Personas que han adquirido conocimientos sólidos en principios contables, normativas fiscales (como el Código Fiscal de la Federación, NIF), y finanzas a través del estudio independiente y la actualización continua."
+            },
+            {
+                "titulo": "Asesores y Consultores Independientes",
+                "descripcion": "Contadores o asesores fiscales que prestan servicios de manera freelance o en despachos pequeños, con experiencia en la planeación financiera y el cumplimiento normativo para personas físicas o morales."
+            }
+        ],
+        "estructura": [
+            "Examen Teórico (160 reactivos)",
             "Examen Práctico"
         ]
     },
     {
         "id": "derecho",
-        "objetivo": "Evaluar y certificar los conocimientos jurídicos y competencias equivalentes a un Licenciado en Derecho, capaz de interpretar y aplicar el marco legal en diversas áreas del derecho.",
+        "objetivo": "El objetivo principal del EXUNAL-CUH en Derecho es evaluar y certificar oficialmente que el sustentante posee los conocimientos teóricos, las competencias prácticas y las habilidades de análisis jurídico equivalentes a los de un egresado del nivel de licenciatura en Derecho.",
         "dirigidoA": [
-            {
-                "titulo": "Asesores Jurídicos",
-                "descripcion": "Profesionales con experiencia en consultoría legal, elaboración de contratos y asesoría en cumplimiento normativo."
+             {
+                "titulo": "Este examen está dirigido a profesionales y servidores públicos con una trayectoria destacada en el ámbito jurídico-institucional que, sin contar con un título universitario formal, han adquirido conocimientos y experiencia significativa. Es idóneo para:"
             },
             {
-                "titulo": "Gestores Legales",
-                "descripcion": "Personas con experiencia en trámites administrativos, judiciales y representación ante autoridades."
+                "titulo": "Funcionarios y Servidores Públicos con Experiencia Jurídica",
+                "descripcion": "Personal de áreas jurídicas gubernamentales, actuarios, secretarios de acuerdos, oficiales judiciales o asistentes de magistrados con amplia experiencia en procedimientos legales."
             },
             {
-                "titulo": "Especialistas en Áreas Específicas",
-                "descripcion": "Profesionales con conocimientos en derecho laboral, mercantil, fiscal o penal adquiridos por experiencia práctica."
+                "titulo": "Profesionales en Despachos y Notarías",
+                "descripcion": "Asistentes jurídicos senior, paralegales, gestores y administradores de bufetes o notarías con responsabilidades sustantivas en la elaboración de documentos, seguimiento de litigios y aplicación de normativas."
+            },
+            {
+                "titulo": "Consultores y Asesores en Materia Legal",
+                "descripcion": "Personas que brindan asesoría en áreas como derecho laboral, mercantil, administrativo o civil, derivada de una prolongada experiencia práctica."
+            },
+            {
+                "titulo": "Profesionales con Formación Autodidacta",
+                "descripcion": "Individuos que han adquirido un conocimiento profundo y sistemático de la doctrina, legislación y jurisprudencia nacional a través del estudio independiente y la actualización continua."
+            }
+            ,
+            {
+                "titulo": "Mediadores y Conciliadores Certificados",
+                "descripcion": "Profesionales con experiencia formal en mecanismos alternativos de solución de controversias."
             }
         ],
         "estructura": [
-            "Examen Teórico (180 reactivos)",
+            "Examen Teórico (160 reactivos)",
             "Examen Práctico"
         ]
-    },
-    {
-        "id": "pedagogia",
-        "objetivo": "Certificar que el sustentante posee los conocimientos y competencias pedagógicas equivalentes a un Licenciado en Pedagogía, capaz de diseñar, implementar y evaluar procesos educativos.",
-        "dirigidoA": [
-            {
-                "titulo": "Docentes en Activo",
-                "descripcion": "Profesores con experiencia en la enseñanza en diferentes niveles educativos sin contar con título en pedagogía."
-            },
-            {
-                "titulo": "Capacitadores Corporativos",
-                "descripcion": "Profesionales dedicados a la formación y desarrollo de personal en empresas u organizaciones."
-            },
-            {
-                "titulo": "Diseñadores Instruccionales",
-                "descripcion": "Personas con experiencia en el diseño de contenidos educativos, cursos y materiales didácticos."
-            }
-        ],
-        "estructura": [
-            "Examen Teórico (150 reactivos)",
-            "Examen Práctico"
-        ]
-   }
+    }
 ]

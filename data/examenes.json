@@ -1,4 +1,24 @@
 [
+   {
+    "id": "pedagogia",
+    "nombre": "EXUNAL - Licenciatura en Pedagogía",
+    "categoria": "Nivel Superior",
+    "descripcion": "Evaluación de conocimientos fundamentales y específicos del campo de la Pedagogía.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 20,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Pedagogía, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
   {
     "id": "administracion",
     "nombre": "EXUNAL - Licenciatura en Administración",
@@ -9,6 +29,26 @@
     "costo": "$15,000 MXN",
     "cupo": 20,
     "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Administración, con base en la experiencia laboral.",
+    "requisitos": [
+      "Experiencia laboral mínima de 3 años en el área.",
+      "Identificación oficial vigente.",
+      "CURP.",
+      "Certificado de bachillerato."
+    ],
+    "fechaRegistro": "Abierto todo el año",
+    "fechaExamen": "Fechas flexibles",
+    "fechaResultados": "45 días post-evaluación"
+  },
+ {
+    "id": "sistemas",
+    "nombre": "EXUNAL - Licenciatura en Ciencias Computacionales",
+    "categoria": "Nivel Superior",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Ciencias Computacionales.",
+    "modalidad": "Evaluación Global",
+    "duracion": "4-6 horas",
+    "costo": "$15,000 MXN",
+    "cupo": 15,
+    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Ingeniería en Sistemas, con base en la experiencia laboral.",
     "requisitos": [
       "Experiencia laboral mínima de 3 años en el área.",
       "Identificación oficial vigente.",
@@ -40,30 +80,10 @@
     "fechaResultados": "45 días post-evaluación"
   },
   {
-    "id": "sistemas",
-    "nombre": "EXUNAL - Licenciatura en Ciencias Computacionales",
-    "categoria": "Nivel Superior",
-    "descripcion": "Evaluación de conocimientos específicos en el área de Ciencias Computacionales.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 15,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Ingeniería en Sistemas, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
     "id": "derecho",
-    "nombre": "Licenciatura en Derecho",
+    "nombre": "EXUNAL - Licenciatura en Derecho",
     "categoria": "Nivel Superior",
-    "descripcion": "Valida tu experiencia en el campo jurídico y obtén tu título de Licenciado en Derecho.",
+    "descripcion": "Evaluación de conocimientos específicos en el área de Derecho. Este programa requiere al menos 50% de créditos cursados.",
     "modalidad": "Evaluación Global",
     "duracion": "4-6 horas",
     "costo": "$15,000 MXN",
@@ -78,45 +98,5 @@
     "fechaRegistro": "Abierto todo el año",
     "fechaExamen": "Fechas flexibles",
     "fechaResultados": "45 días post-evaluación"
-  },
-  {
-    "id": "pedagogia",
-    "nombre": "Licenciatura en Pedagogía",
-    "categoria": "Nivel Superior",
-    "descripcion": "Obtén tu título de Lic. en Pedagogía validando tu experiencia en el ámbito educativo.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Pedagogía, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  },
-  {
-    "id": "mercadotecnia",
-    "nombre": "Licenciatura en Mercadotecnia",
-    "categoria": "Nivel Superior",
-    "descripcion": "Valida tu experiencia en estrategias comerciales y obtén tu título profesional.",
-    "modalidad": "Evaluación Global",
-    "duracion": "4-6 horas",
-    "costo": "$15,000 MXN",
-    "cupo": 20,
-    "objetivo": "Acreditar los conocimientos y habilidades correspondientes al nivel de Licenciatura en Mercadotecnia, con base en la experiencia laboral.",
-    "requisitos": [
-      "Experiencia laboral mínima de 3 años en el área.",
-      "Identificación oficial vigente.",
-      "CURP.",
-      "Certificado de bachillerato."
-    ],
-    "fechaRegistro": "Abierto todo el año",
-    "fechaExamen": "Fechas flexibles",
-    "fechaResultados": "45 días post-evaluación"
-  }
+ }
 ]
