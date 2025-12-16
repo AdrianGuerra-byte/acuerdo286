@@ -28,7 +28,9 @@
         "estructura": [
             "Examen Teórico (160 reactivos)",
             "Examen Práctico"
-        ]
+        ],
+        "guiaTeoricoUrl": "https://drive.google.com/contaduria-teorico",
+        "guiaEstudiosUrl": "https://drive.google.com/contaduria-estudios"
     },
     {
         "id": "administracion",
@@ -58,7 +60,9 @@
         "estructura": [
             "Examen Teórico (160 reactivos)",
             "Examen Práctico"
-        ]
+        ],
+        "guiaTeoricoUrl": "https://drive.google.com/administracion-teorico",
+        "guiaEstudiosUrl": "https://drive.google.com/administracion-estudios"
     },
     {
         "id": "sistemas",
@@ -89,7 +93,9 @@
         "estructura": [
             "Examen Teórico (160 reactivos)",
             "Examen Práctico"
-        ]
+        ],
+        "guiaTeoricoUrl": "https://drive.google.com/derecho-teorico",
+        "guiaEstudiosUrl": "https://drive.google.com/derecho-estudios"
     },
     {
         "id": "contaduria",
@@ -118,7 +124,9 @@
         "estructura": [
             "Examen Teórico (160 reactivos)",
             "Examen Práctico"
-        ]
+        ],
+        "guiaTeoricoUrl": "https://drive.google.com/pedagogia-teorico",
+        "guiaEstudiosUrl": "https://drive.google.com/pedagogia-estudios"
     },
     {
         "id": "derecho",
@@ -152,6 +160,8 @@
         "estructura": [
             "Examen Teórico (160 reactivos)",
             "Examen Práctico"
-        ]
+        ],
+        "guiaTeoricoUrl": "https://drive.google.com/mercadotecnia-teorico",
+        "guiaEstudiosUrl": "https://drive.google.com/mercadotecnia-estudios"
     }
 ]

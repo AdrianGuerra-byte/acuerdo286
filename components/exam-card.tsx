@@ -10,7 +10,18 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, DollarSign, Users, Calendar } from "lucide-react";
+import {
+  Clock,
+  DollarSign,
+  Users,
+  Calendar,
+  Calculator,
+  Briefcase,
+  Code,
+  Scale,
+  GraduationCap,
+  TrendingUp,
+} from "lucide-react";
 
 interface ExamCardProps {
   exam: {
@@ -27,60 +38,77 @@ interface ExamCardProps {
   onViewDetails: () => void;
 }
 
-export function ExamCard({ exam, onViewDetails }: ExamCardProps) {
-  return (
-    <Card className="h-full flex flex-col hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 hover:border-primary/20">
-      <CardHeader className="space-y-3">
-        <div className="flex items-start justify-between gap-2">
-          <Badge variant="secondary" className="font-medium">
-            {exam.categoria}
-          </Badge>
-          <Badge variant="outline" className="text-xs">
-            {exam.modalidad}
-          </Badge>
-        </div>
-        <CardTitle className="font-serif text-xl leading-tight text-balance">
-          {exam.nombre}
-        </CardTitle>
-      </CardHeader>
+// Mapeo de iconos por ID de examen
+const examIcons: Record<string, React.ComponentType<{ className?: string }>> = {
+  contaduria: Calculator,
+  administracion: Briefcase,
+  sistemas: Code,
+  derecho: Scale,
+  pedagogia: GraduationCap,
+  mercadotecnia: TrendingUp,
+};
 
-      <CardContent className="flex-1 space-y-4">
-        <p className="text-muted-foreground leading-relaxed text-pretty line-clamp-3">
+export function ExamCard({ exam, onViewDetails }: ExamCardProps) {
+  const IconComponent = examIcons[exam.id] || GraduationCap;
+
+  return (
+    <Card className="h-full flex flex-col hover:shadow-xl transition-all duration-300 border hover:border-primary/40 group overflow-hidden">
+      {/* Header con icono prominente */}
+      <div className="bg-gradient-to-br from-primary/5 via-primary/3 to-transparent p-6 pb-4">
+        <div className="flex items-start gap-4">
+          <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg">
+            <IconComponent className="w-8 h-8 text-primary" />
+          </div>
+          <div className="flex-1 pt-1">
+            <CardTitle className="font-serif text-xl lg:text-2xl leading-tight text-balance text-foreground">
+              {exam.nombre}
+            </CardTitle>
+            <div className="flex items-center gap-2 mt-2">
+              <Badge variant="secondary" className="font-medium text-xs">
+                {exam.categoria}
+              </Badge>
+              <Badge
+                className="font-semibold text-xs bg-foreground text-background border border-foreground/20 hover:bg-foreground/90 shadow-sm"
+              >
+                EXUNAL
+              </Badge>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <CardContent className="flex-1 p-6 space-y-5">
+        <p className="text-sm lg:text-base text-muted-foreground leading-relaxed text-pretty line-clamp-3">
           {exam.descripcion}
         </p>
 
-        <div className="grid grid-cols-2 gap-3 pt-2">
+        <div className="flex items-center justify-between gap-4 pt-2 border-t border-muted/30">
           <div className="flex items-center gap-2 text-sm">
-            <Clock className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-            <span className="text-muted-foreground">{exam.duracion}</span>
+            <Clock className="w-4 h-4 text-primary/70 flex-shrink-0" />
+            <span className="text-muted-foreground font-medium">
+              {exam.duracion}
+            </span>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <DollarSign className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-            <span className="text-muted-foreground">{exam.costo}</span>
-          </div>
-          <div className="flex items-center gap-2 text-sm">
-            <Users className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-            <span className="text-muted-foreground">Cupo: {exam.cupo}</span>
-          </div>
-          <div className="flex items-center gap-2 text-sm">
-            <Calendar className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-            <span className="text-muted-foreground text-xs">
+            <Calendar className="w-4 h-4 text-primary/70 flex-shrink-0" />
+            <span className="text-muted-foreground font-medium text-xs">
               {exam.fechaExamen}
             </span>
           </div>
         </div>
       </CardContent>
 
-      <CardFooter className="flex gap-2">
+      <CardFooter className="p-6 pt-0 flex flex-col gap-2">
         <Button
           onClick={onViewDetails}
           variant="outline"
-          className="flex-1 bg-transparent"
+          size="lg"
+          className="w-full border-primary/30 hover:bg-primary/5"
         >
           Ver Detalles
         </Button>
-        <Button asChild className="flex-1">
-          <Link href="/inscripcion">Inscribirme</Link>
+        <Button asChild size="lg" className="w-full shadow-md">
+          <Link href="/inscripcion">Inscribirme Ahora</Link>
         </Button>
       </CardFooter>
     </Card>
