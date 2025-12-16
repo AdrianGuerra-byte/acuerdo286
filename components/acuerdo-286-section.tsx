@@ -64,63 +64,6 @@ export function Acuerdo286Section() {
               </div>
             </CardContent>
           </Card>
-
-          {/* Subsections Grid */}
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            {/* Acredita tu Licenciatura */}
-            <Card className="border-2 border-secondary/20 hover:border-secondary/40 transition-colors hover:shadow-xl duration-300 group">
-              <CardContent className="p-8 lg:p-10 space-y-5">
-                <div className="w-14 h-14 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Award className="w-7 h-7 text-secondary" />
-                </div>
-                <h3 className="font-serif font-bold text-2xl lg:text-3xl text-foreground tracking-tight">
-                  Acredita tu Licenciatura
-                </h3>
-                <p className="text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty">
-                  Valida tu experiencia profesional y conocimientos para obtener
-                  tu título de licenciatura. Reconoce el aprendizaje autodidacta
-                  y la práctica laboral.
-                </p>
-                <ul className="space-y-3 pt-2">
-                  <li className="flex items-start gap-3">
-                    <span className="text-secondary text-lg mt-0.5">•</span>
-                    <span className="text-sm lg:text-base text-muted-foreground">
-                      Validación de experiencia laboral
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-secondary text-lg mt-0.5">•</span>
-                    <span className="text-sm lg:text-base text-muted-foreground">
-                      Título profesional con validez oficial
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-secondary text-lg mt-0.5">•</span>
-                    <span className="text-sm lg:text-base text-muted-foreground">
-                      Múltiples áreas de conocimiento disponibles
-                    </span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            {/* Who Can Apply */}
-            <Card className="border-2 border-primary/20 hover:border-primary/40 transition-colors hover:shadow-xl duration-300 group">
-              <CardContent className="p-8 lg:p-10 space-y-5">
-                <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <FileCheck className="w-7 h-7 text-primary" />
-                </div>
-                <h3 className="font-serif font-bold text-2xl lg:text-3xl text-foreground tracking-tight">
-                  ¿Quiénes pueden presentarlo?
-                </h3>
-                <p className="text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty">
-                  Personas que adquirieron conocimientos de forma autodidacta o
-                  por experiencia laboral en el área y buscan acreditar algún
-                  perfil autorizado de educación superior.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
